@@ -1,0 +1,9 @@
+class BuildAgent: pass
+class CodingAgent: pass
+class MarketAgent: pass
+class AnalyticsAgent: pass
+class StrategyAgent: pass
+class WalletAgent: pass
+class DeploymentAgent: pass
+class BrandAgent: pass
+class UIModuleAgent: pass
