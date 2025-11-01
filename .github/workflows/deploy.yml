@@ -1,0 +1,16 @@
+name: 🚀 Cloud Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Deploy Cloud Run Services
+      run: |
+        gcloud run deploy orchestrator --source=. --project=infinity-x-one-swarm-system --region=us-east1 --platform=managed
