@@ -1,1 +1,0 @@
-# corelight agent entrypoint

@@ -1,1 +1,0 @@
-# insight agent entrypoint

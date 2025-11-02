@@ -1,1 +1,0 @@
-# pickybot agent entrypoint
