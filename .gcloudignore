@@ -1,0 +1,7 @@
+.gcloudignore
+.git
+.gitignore
+logs/
+node_modules/
+.env*
+__pycache__/
