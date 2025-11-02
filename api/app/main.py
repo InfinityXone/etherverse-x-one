@@ -1,6 +1,9 @@
 import os, hmac, hashlib, time
+from app.routes import memory
 from typing import List, Dict, Any, Optional
+from app.routes import memory
 from fastapi import FastAPI, HTTPException, Header, Request, Depends
+from app.routes import memory
 from pydantic import BaseModel, Field
 from etherverse_orchestrator import Orchestrator, hydrate_state
 

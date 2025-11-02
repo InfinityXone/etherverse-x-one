@@ -1,18 +1,19 @@
-import './globals.css';
-import Sidebar from '../components/Sidebar';
+import type { Metadata } from "next";
+import "./globals.css";
+import Sidebar from "@/components/Sidebar";
 
-export const metadata = {
-  title: 'Etherverse Chat',
+export const metadata: Metadata = {
+  title: "Etherverse Chat",
+  description: "True-black metallic UI with deep-blue accents",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000"),
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-black text-[#e5e7eb]">
-        <div className="flex min-h-screen">
-          <Sidebar />
-          <main className="flex-1 relative">{children}</main>
-        </div>
+      <body className="page">
+        <Sidebar />
+        <main className="main">{children}</main>
       </body>
     </html>
   );

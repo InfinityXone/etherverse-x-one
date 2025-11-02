@@ -32,3 +32,4 @@ config/*.env.*
 nohup.out
 ops/_legacy/
 scripts/full_autonomous_setup_safe.sh
+scripts/full_autonomous_setup.sh
