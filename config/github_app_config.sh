@@ -1,0 +1,5 @@
+export GITHUB_APP_ID="2215740"
+export GITHUB_INSTALLATION_ID="92537509"
+export GITHUB_APP_NAME="etherverse-x-one"
+export GITHUB_CLIENT_ID="lv23iIiRvp5scKIkDHZw"
+export GITHUB_PRIVATE_KEY_PATH="/home/infinity-x-one/etherverse-x-one/config/github_app_private_key.pem"
