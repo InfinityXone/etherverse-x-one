@@ -1,0 +1,89 @@
+/* --- Etherverse: True-Black Cosmic Blue theme --- */
+:root{
+  --bg:#000000;             /* page background: pure black */
+  --panel:#0a0a0a;          /* main panels */
+  --card:#0d0d0d;           /* inner cards */
+  --text:#e8e9ef;           /* primary text */
+  --muted:#a5adba;          /* secondary text */
+  --border:#1a1a1a;         /* ultra-thin lines */
+  --accent:#2d7dff;         /* electric deep blue */
+  --accent-weak:#2d7dff33;  /* subtle glow */
+}
+
+*{box-sizing:border-box}
+html,body{height:100%}
+html{color-scheme:dark}
+body{
+  margin:0;
+  background:var(--bg) !important;
+  color:var(--text);
+  font:14px/1.5 ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell;
+}
+
+/* Layout rails */
+.page{
+  min-height:100vh;
+  display:grid;
+  grid-template-columns: 260px 1fr;
+}
+
+/* Sidebar */
+.sidebar{
+  background:#000;
+  border-right:1px solid var(--border);
+  padding:16px;
+}
+.sidebar .brand{
+  display:flex; align-items:center; gap:10px;
+  margin-bottom:18px;
+}
+.sidebar .brand .title{
+  font-weight:700; font-size:18px; letter-spacing:.3px;
+}
+.sidebar .brand .subtitle{
+  margin-top:-2px; font-size:12px; color:var(--muted);
+}
+.sidebar nav{display:flex; flex-direction:column; gap:10px}
+.sidebar a{
+  display:block;
+  background:#000;
+  color:#9fc2ff;
+  border:1px solid var(--border);
+  border-radius:10px;
+  padding:10px 12px;
+  text-decoration:none;
+}
+.sidebar a:hover{ border-color:#23324b; box-shadow:0 0 0 1px #000 inset, 0 0 20px var(--accent-weak) }
+.sidebar a.active{ outline:1px solid var(--accent); color:#dfe8ff }
+
+/* Main content shell */
+.main{ padding:24px }
+.panel{
+  background:var(--panel);
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:20px;
+  box-shadow:0 0 0 1px #000 inset;
+}
+.card{
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:12px;
+  padding:16px;
+}
+
+/* Headings & tiny accent line */
+h1,h2,h3{margin:0 0 12px}
+h1{font-size:28px}
+.accent{ color:var(--accent) }
+
+/* Inputs / buttons */
+input, textarea{
+  width:100%; background:#0b0b0b; color:var(--text);
+  border:1px solid var(--border); border-radius:10px; padding:10px 12px;
+}
+button.primary{
+  background:var(--accent); color:#fff; border:1px solid #1f5edd;
+  border-radius:10px; padding:10px 16px; font-weight:700;
+}
+button.primary:hover{ filter:brightness(1.05) }

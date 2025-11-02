@@ -1,0 +1,3 @@
+# minimal placeholder; pin later if needed
+uvicorn
+fastapi

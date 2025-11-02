@@ -1,0 +1,11 @@
+import type { NextConfig } from "next";
+
+const nextConfig: NextConfig = {
+  // Keep builds unblocked while you iterate on UI
+  eslint: { ignoreDuringBuilds: true },
+
+  // Silence multi-lockfile root warnings
+  outputFileTracingRoot: __dirname,
+};
+
+export default nextConfig;
