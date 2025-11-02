@@ -1,1 +1,0 @@
-# gateway agent entrypoint
