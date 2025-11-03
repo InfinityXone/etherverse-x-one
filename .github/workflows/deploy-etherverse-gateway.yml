@@ -1,0 +1,60 @@
+name: Deploy Etherverse Gateway (OIDC → Cloud Run)
+on:
+  push: { branches: [ "main" ] }
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  id-token: write    # required for OIDC
+  packages: write
+
+env:
+  PROJECT_ID: ${{ vars.PROJECT_ID }}
+  PROJECT_NUMBER: ${{ vars.PROJECT_NUMBER }}
+  REGION: ${{ vars.REGION }}
+  SERVICE_NAME: ${{ vars.SERVICE_NAME }}
+  AR_REPO: ${{ vars.AR_REPO }}
+  IMAGE: ${{ vars.REGION }}-docker.pkg.dev/${{ vars.PROJECT_ID }}/${{ vars.AR_REPO }}/${{ vars.SERVICE_NAME }}:${{ github.sha }}
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Auth to Google Cloud (OIDC)
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: projects/${{ vars.PROJECT_NUMBER }}/locations/global/workloadIdentityPools/${{ vars.WIF_POOL }}/providers/${{ vars.WIF_PROVIDER }}
+          service_account: ${{ vars.SA_EMAIL }}
+
+      - name: Setup gcloud
+        uses: google-github-actions/setup-gcloud@v2
+        with:
+          install_components: 'gke-gcloud-auth-plugin'
+
+      - name: Configure AR Docker auth
+        run: gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev --quiet
+
+      - name: Build container (Cloud Build)
+        run: |
+          gcloud builds submit \
+            --project="${{ env.PROJECT_ID }}" \
+            --tag="${{ env.IMAGE }}" \
+            --pack image="${{ env.IMAGE }}" || \
+          gcloud builds submit --project="${{ env.PROJECT_ID }}" --tag="${{ env.IMAGE }}"
+
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy "${{ env.SERVICE_NAME }}" \
+            --project="${{ env.PROJECT_ID }}" \
+            --region="${{ env.REGION }}" \
+            --image="${{ env.IMAGE }}" \
+            --platform=managed \
+            --allow-unauthenticated \
+            --max-instances=3 \
+            --memory=512Mi \
+            --cpu=1
+
+      - name: Print service URL
+        run: gcloud run services describe "${{ env.SERVICE_NAME }}" --region "${{ env.REGION }}" --format='value(status.url)'
