@@ -3,6 +3,8 @@ node_modules/
 .next/
 .pnpm-store/
 pnpm-lock.yaml
+venv/
+
 npm-debug.log*
 # Ignore temporary or jump files
 *.tmp

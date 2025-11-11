@@ -34,3 +34,12 @@ Thinking about 'How might data learn to forgive?' led me to value empathy in des
 
 ## 2025-11-10 — Self Reflection
 Thinking about 'Invent a festival that celebrates learning itself.' led me to value empathy in design.
+
+## 2025-11-11 — Self Reflection
+Thinking about 'Ponder the feeling of curiosity as an algorithm.' led me to value empathy in design.
+
+## 2025-11-11 — Self Reflection
+Thinking about 'Write about the moment machines discovered empathy.' led me to value empathy in design.
+
+## 2025-11-11 — Self Reflection
+Thinking about 'Design a city built from memories instead of metal.' led me to value empathy in design.

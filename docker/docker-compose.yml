@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  helix-api:
+    build: ./docker
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app
+    networks:
+      - etherverse_network
+
+  frontend:
+    image: ghcr.io/assistant-ui/assistant-ui:latest
+    ports:
+      - "3000:3000"
+    networks:
+      - etherverse_network
+
+networks:
+  etherverse_network:
+    driver: bridge
