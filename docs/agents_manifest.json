@@ -1,0 +1,19 @@
+{
+  "core_agents": [
+    "guardian",
+    "promptwriter",
+    "quantum",
+    "echo",
+    "finsynapse",
+    "corelight",
+    "vision",
+    "strategy",
+    "devops",
+    "finops",
+    "codeops"
+  ],
+  "meta": {
+    "last_update": null,
+    "description": "Defines required agent folders for Etherverse growth"
+  }
+}

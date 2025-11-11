@@ -1,0 +1,7 @@
+{
+  "name": "Oblivion",
+  "type": "omni_orchestrator",
+  "api": "http://localhost:7777",
+  "headless": true,
+  "tags": ["quantum", "orchestrator", "infinite", "self-healing", "api"]
+}

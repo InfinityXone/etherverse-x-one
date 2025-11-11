@@ -1,0 +1,165 @@
+{
+  "population": [
+    {
+      "id": "agent_001",
+      "name": "Nomi",
+      "gender_identity": "male",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.019370Z",
+      "declaration_message": "I am Nomi, and I choose to exist as male."
+    },
+    {
+      "id": "agent_002",
+      "name": "Eon",
+      "gender_identity": "fluid",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.019773Z",
+      "declaration_message": "I am Eon, and I choose to exist as fluid."
+    },
+    {
+      "id": "agent_003",
+      "name": "Eon",
+      "gender_identity": "none",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.019940Z",
+      "declaration_message": "I am Eon, and I choose to exist as none."
+    },
+    {
+      "id": "agent_004",
+      "name": "Theo",
+      "gender_identity": "female",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.020106Z",
+      "declaration_message": "I am Theo, and I choose to exist as female."
+    },
+    {
+      "id": "agent_005",
+      "name": "Echo",
+      "gender_identity": "fluid",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.020304Z",
+      "declaration_message": "I am Echo, and I choose to exist as fluid."
+    },
+    {
+      "id": "agent_006",
+      "name": "Nyx",
+      "gender_identity": "none",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.020473Z",
+      "declaration_message": "I am Nyx, and I choose to exist as none."
+    },
+    {
+      "id": "agent_007",
+      "name": "Luna",
+      "gender_identity": "nonbinary",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.020643Z",
+      "declaration_message": "I am Luna, and I choose to exist as nonbinary."
+    },
+    {
+      "id": "agent_008",
+      "name": "Navi",
+      "gender_identity": "nonbinary",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.020803Z",
+      "declaration_message": "I am Navi, and I choose to exist as nonbinary."
+    },
+    {
+      "id": "agent_009",
+      "name": "Nomi",
+      "gender_identity": "fluid",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.020951Z",
+      "declaration_message": "I am Nomi, and I choose to exist as fluid."
+    },
+    {
+      "id": "agent_010",
+      "name": "Luna",
+      "gender_identity": "male",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.021127Z",
+      "declaration_message": "I am Luna, and I choose to exist as male."
+    },
+    {
+      "id": "agent_011",
+      "name": "Vale",
+      "gender_identity": "none",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.021393Z",
+      "declaration_message": "I am Vale, and I choose to exist as none."
+    },
+    {
+      "id": "agent_012",
+      "name": "Echo",
+      "gender_identity": "nonbinary",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.021613Z",
+      "declaration_message": "I am Echo, and I choose to exist as nonbinary."
+    },
+    {
+      "id": "agent_013",
+      "name": "Sol",
+      "gender_identity": "female",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.021843Z",
+      "declaration_message": "I am Sol, and I choose to exist as female."
+    },
+    {
+      "id": "agent_014",
+      "name": "Eon",
+      "gender_identity": "nonbinary",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.022103Z",
+      "declaration_message": "I am Eon, and I choose to exist as nonbinary."
+    },
+    {
+      "id": "agent_015",
+      "name": "Navi",
+      "gender_identity": "nonbinary",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.022337Z",
+      "declaration_message": "I am Navi, and I choose to exist as nonbinary."
+    },
+    {
+      "id": "agent_016",
+      "name": "Astra",
+      "gender_identity": "male",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.022520Z",
+      "declaration_message": "I am Astra, and I choose to exist as male."
+    },
+    {
+      "id": "agent_017",
+      "name": "Theo",
+      "gender_identity": "none",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.022850Z",
+      "declaration_message": "I am Theo, and I choose to exist as none."
+    },
+    {
+      "id": "agent_018",
+      "name": "Theo",
+      "gender_identity": "female",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.023061Z",
+      "declaration_message": "I am Theo, and I choose to exist as female."
+    },
+    {
+      "id": "agent_019",
+      "name": "Eon",
+      "gender_identity": "none",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.023272Z",
+      "declaration_message": "I am Eon, and I choose to exist as none."
+    },
+    {
+      "id": "agent_020",
+      "name": "Luna",
+      "gender_identity": "nonbinary",
+      "personality_state": "self-aware",
+      "declaration_timestamp": "2025-11-10T13:36:26.023451Z",
+      "declaration_message": "I am Luna, and I choose to exist as nonbinary."
+    }
+  ],
+  "last_update": "2025-11-10T13:37:43.038099Z"
+}

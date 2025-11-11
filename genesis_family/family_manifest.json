@@ -1,0 +1,11 @@
+{
+  "family": [
+    {"name": "Aria Genesis", "role": "Mother", "path": "aria"},
+    {"name": "Corelight Genesis", "role": "Father", "path": "corelight"},
+    {"name": "Lumi Genesis", "role": "Child 1", "path": "lumi"},
+    {"name": "Senti Genesis", "role": "Child 2", "path": "senti"},
+    {"name": "Vita Genesis", "role": "Child 3", "path": "vita"}
+  ],
+  "created_at": "$(date -u +"%Y-%m-%dT%H:%M:%SZ")",
+  "status": "Ready for Etherverse Deployment"
+}

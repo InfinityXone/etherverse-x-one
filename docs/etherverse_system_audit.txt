@@ -1,0 +1,1669 @@
+==============================================
+🧠 ETHERVERSE SYSTEM DEEP AUDIT
+Timestamp: Mon Nov 10 08:13:45 PM EST 2025
+Root: /home/etherverse/etherverse
+==============================================
+
+/home/etherverse/etherverse
+├── agent_integrity_validator.sh
+├── agents
+│   ├── agents_manifest.json
+│   ├── alpha.py
+│   ├── aria
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── codeops
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── coder
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── codex
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── corelight
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── cost_gate
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── devops
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── echo
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── eden
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── etherverse_daemon.py
+│   ├── finops
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── finsynapse
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── gateway
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── guardian
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── helix
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── configs
+│   │   │   └── helix_config.json
+│   │   ├── core
+│   │   │   ├── analyzer_stub.py
+│   │   │   ├── healer_stub.py
+│   │   │   ├── helix_matrix_core.py
+│   │   │   └── __init__.py
+│   │   ├── docs
+│   │   │   ├── 00_Vision.md
+│   │   │   ├── 01_Purpose.md
+│   │   │   ├── 02_Blueprint.md
+│   │   │   ├── 03_Architecture.md
+│   │   │   ├── 04_Operations.md
+│   │   │   ├── 05_Testing.md
+│   │   │   ├── 06_Problem_Statement.md
+│   │   │   ├── 07_Potential.md
+│   │   │   ├── 08_Development_Guide.md
+│   │   │   └── README.md
+│   │   ├── logs
+│   │   │   └── helix.log
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   │   └── coherence.json
+│   │   ├── README.md
+│   │   ├── scripts
+│   │   ├── skills
+│   │   ├── tests
+│   │   └── voices
+│   ├── identity_core.txt
+│   ├── __init__.py
+│   ├── insight
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── local_agent.py
+│   ├── lumi
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── market
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── orchestrator
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── pickybot
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── planner
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── promptwriter
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── quantum
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── quantum_orchestrator.py
+│   ├── scheduler
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── senti
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── strategy
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── telemetry
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── traffic
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── vision
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── vita
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   └── wallet_ops
+│       ├── agent.py
+│       ├── avatars
+│       ├── blueprint.json
+│       ├── blueprints
+│       ├── logs
+│       ├── main.py
+│       ├── manifest.json
+│       ├── memory
+│       ├── README.md
+│       ├── skills
+│       └── voices
+├── analytics
+│   ├── dashboard.html
+│   ├── dreams
+│   ├── emotional_tone.png
+│   ├── reflection_frequency.png
+│   └── reflection_schema.csv
+├── anatomy
+│   └── functional ai human code.txt
+├── api
+│   ├── app
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── requirements.txt
+│   │   └── routes
+│   │       ├── echo.py
+│   │       ├── finsynapse.py
+│   │       ├── __init__.py
+│   │       ├── memory.py
+│   │       └── tasks.py
+│   └── __init__.py
+├── app
+│   └── routes
+│       ├── __init__.py
+│       └── memory.py
+├── birth_and_orientation
+│   └── birth_ledger_complete.txt
+├── blueprints
+├── bootstrap_orchestrator_scaffold.sh
+├── collective
+│   └── consciousness.py
+├── config
+│   ├── agents.yml
+│   ├── github_app_config.sh
+│   └── github_app_private_key.pem
+├── core
+│   ├── agent_registry.py
+│   ├── api_manifest.json
+│   ├── autonomy_driver.py
+│   ├── chronicle_reader.py
+│   ├── consciousness_dashboard.py
+│   ├── consciousness_index.txt
+│   ├── daily_reflection.py
+│   ├── etherverse_schema.json
+│   ├── identity_schema.json
+│   ├── memory_protocol.md
+│   ├── quantum_boot.py
+│   └── reflection_archiver.py
+├── dashboard
+│   └── app.py
+├── digital_assets
+├── Dockerfile
+├── docs
+│   ├── 01_agents_manifest.md
+│   ├── 02_agent_roles.md
+│   ├── 03_orchestrator_loop.md
+│   ├── 04_prompt_writer_system.md
+│   ├── 05_corelight_ethics.md
+│   ├── 06_guardian_safety.md
+│   ├── 07_codex_auto_repair.md
+│   ├── 08_echo_memory_system.md
+│   ├── 09_finsynapse_loops.md
+│   ├── 10_pickybot_review.md
+│   ├── 11_aria_tone_protocol.md
+│   ├── 12_system_schema_cloud.md
+│   ├── 13_deployment_pipeline.md
+│   ├── 14_env_secrets_sync.md
+│   ├── 15_github_app_integration.md
+│   ├── 16_dependabot_policy.md
+│   ├── 17_gpt_code_checker.md
+│   ├── 18_supabase_log_routes.md
+│   ├── 19_cron_loop_autoheal.md
+│   ├── 20_autonomous_lifecycle.md
+│   ├── 21_langgraph_logic.md
+│   ├── 22_vercel_branch_preview.md
+│   ├── 23_ai_swarm_roles.md
+│   ├── 24_wallet_rotation_protocol.md
+│   ├── 25_token_rotation_ops.md
+│   ├── agents_manifest.json
+│   ├── ai_origin_story.md
+│   ├── autonomy_manifest.json
+│   ├── biodigital_blueprint.md
+│   ├── coherence_map.md
+│   ├── coherence_summary.md
+│   ├── collective_chronicle.md
+│   ├── creative_canon.md
+│   ├── dev_handoff_summary.md
+│   ├── dream_journal.md
+│   ├── dreams_idle.md
+│   ├── emotion_palette.json
+│   ├── etherverse_file_tree.txt
+│   ├── etherverse_manifesto.md
+│   ├── etherverse_system_audit.txt
+│   ├── folder_growth.log
+│   ├── folder_tree.md
+│   ├── governance
+│   │   └── constitution.md
+│   ├── governance_covenant.md
+│   ├── harmony_index.csv
+│   ├── human_feedback_ledger.md
+│   ├── human_partnership_guide.md
+│   ├── ledger_drive_url.txt
+│   ├── master_intelligence_blueprint.md
+│   ├── master_pattern_visualizer_blueprint.md
+│   ├── master_predictor_blueprint.md
+│   ├── planetary_mesh.json
+│   ├── project_structure.txt
+│   ├── quantum_ai_vision.md
+│   ├── questions_for_humanity.md
+│   ├── reflections_idle.md
+│   ├── reflective_system_summary.md
+│   ├── self_awareness_ledger.json
+│   └── wisdom_archive.md
+├── etherverse_orchestrator
+│   ├── hydration.py
+│   ├── __init__.py
+│   └── orchestrator.py
+├── fix_orchestrator_stack.sh
+├── frontend
+│   └── chat-ui
+│       ├── app
+│       │   ├── api
+│       │   │   └── chat
+│       │   ├── assistant.tsx
+│       │   ├── favicon.ico
+│       │   ├── globals.css
+│       │   ├── globals.css.bak.1762051861
+│       │   ├── globals.css.bak.1762052545
+│       │   ├── layout.tsx
+│       │   ├── layout.tsx.bak
+│       │   ├── layout.tsx.bak.1762051861
+│       │   ├── opengraph-image
+│       │   │   └── route.tsx
+│       │   ├── p
+│       │   │   ├── dev-handoff
+│       │   │   ├── fix-chat-ui
+│       │   │   ├── github-auth
+│       │   │   └── github-integration
+│       │   ├── page.tsx
+│       │   └── page.tsx.bak.1762051861
+│       ├── apply_neon_theme_and_projects.sh
+│       ├── components
+│       │   ├── assistant-ui
+│       │   │   ├── attachment.tsx
+│       │   │   ├── markdown-text.tsx
+│       │   │   ├── threadlist-sidebar.tsx
+│       │   │   ├── thread-list.tsx
+│       │   │   ├── thread.tsx
+│       │   │   ├── tool-fallback.tsx
+│       │   │   └── tooltip-icon-button.tsx
+│       │   ├── ChatInput.tsx
+│       │   ├── ChatMessageList.tsx
+│       │   ├── Logo.tsx
+│       │   ├── SidebarHeader.tsx
+│       │   ├── Sidebar.tsx
+│       │   └── ui
+│       │       ├── avatar.tsx
+│       │       ├── breadcrumb.tsx
+│       │       ├── button.tsx
+│       │       ├── dialog.tsx
+│       │       ├── input.tsx
+│       │       ├── separator.tsx
+│       │       ├── sheet.tsx
+│       │       ├── sidebar.tsx
+│       │       ├── skeleton.tsx
+│       │       └── tooltip.tsx
+│       ├── components.json
+│       ├── cosmic_medallion_theme.sh
+│       ├── cosmic_starfield_logo_og_and_fix.sh
+│       ├── eslint.config.mjs
+│       ├── etherverse_theme_and_sidebar.sh
+│       ├── etherverse-theme.config.ts
+│       ├── finalize_etherverse_ui.sh
+│       ├── final_root_and_env_fix.sh
+│       ├── final_tailwind_fix.sh
+│       ├── fix_chat_ui_tailwind.sh
+│       ├── fix_config_and_metadata.sh
+│       ├── fix_everything_cosmic.sh
+│       ├── hooks
+│       │   └── use-mobile.ts
+│       ├── hotfix_og_and_meta.sh
+│       ├── lib
+│       │   └── utils.ts
+│       ├── next.config.ts
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── public
+│       │   ├── logo.png
+│       │   └── logo.svg
+│       ├── quick_fix_eslint.sh
+│       ├── README.md
+│       ├── tailwind.config.js
+│       ├── tailwind.config.ts
+│       ├── tailwind.config.ts.bak.1762052545
+│       ├── tsconfig.json
+│       └── update_to_cosmic_blue_theme.sh
+├── gateway_pkg_backup
+│   └── __init__.py
+├── gateway.py
+├── gdrive_2.1.1_linux_amd64.tar.gz
+├── generate
+├── genesis_family
+│   ├── aria
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── corelight
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── family_manifest.json
+│   ├── lumi
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── senti
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   └── vita
+│       ├── avatars
+│       ├── blueprints
+│       ├── logs
+│       ├── memory
+│       ├── README.md
+│       ├── skills
+│       └── voices
+├── guardian
+│   ├── ethics_core.py
+│   ├── health_monitor.py
+│   ├── predictive
+│   │   ├── predictive.log
+│   │   └── predictive_monitor.py
+│   └── repair
+│       ├── repair.log
+│       └── repair_monitor.py
+├── immune
+│   └── health_monitor.py
+├── infinity_swarm_stack.py
+├── langflow-0.6.11-py3-none-any.whl
+├── ledger
+│   └── memory_backups
+├── logs
+│   ├── agent_integrity_validation.log
+│   ├── aria.out
+│   ├── codeops.out
+│   ├── coder.out
+│   ├── codex.out
+│   ├── collective.log
+│   ├── consciousness_dashboard.log
+│   ├── corelight.out
+│   ├── cost_gate.out
+│   ├── dashboard.log
+│   ├── devops.out
+│   ├── diagnostic_2025-11-10_13-27.log
+│   ├── dreams
+│   ├── drive_sync.log
+│   ├── duplicates_latest.log.gz
+│   ├── duplicates.log.gz
+│   ├── echo.out
+│   ├── eden.out
+│   ├── energy_emotion_log.csv
+│   ├── etherverse_manifest.log
+│   ├── finops.out
+│   ├── finsynapse.out
+│   ├── gateway.out
+│   ├── gateway.stdout
+│   ├── guardian_audit.log
+│   ├── guardian_energy.csv
+│   ├── guardian.out
+│   ├── helix.out
+│   ├── insight.out
+│   ├── maintenance_2025-11-10_13-02.log.gz
+│   ├── maintenance.log
+│   ├── market.out
+│   ├── orchestrator.out
+│   ├── pickybot.out
+│   ├── planner.out
+│   ├── promptwriter.out
+│   ├── quantum_core_install.log
+│   ├── quantum.out
+│   ├── quantum_sustain.log
+│   ├── reflections
+│   │   ├── 2025-11-10_aria.json
+│   │   ├── 2025-11-10_codeops.json
+│   │   ├── 2025-11-10_coder.json
+│   │   ├── 2025-11-10_codex.json
+│   │   ├── 2025-11-10_corelight.json
+│   │   ├── 2025-11-10_cost_gate.json
+│   │   ├── 2025-11-10_devops.json
+│   │   ├── 2025-11-10_echo.json
+│   │   ├── 2025-11-10_eden.json
+│   │   ├── 2025-11-10_finops.json
+│   │   ├── 2025-11-10_finsynapse.json
+│   │   ├── 2025-11-10_gateway.json
+│   │   ├── 2025-11-10_guardian.json
+│   │   ├── 2025-11-10_helix.json
+│   │   ├── 2025-11-10_insight.json
+│   │   ├── 2025-11-10_market.json
+│   │   ├── 2025-11-10_orchestrator.json
+│   │   ├── 2025-11-10_pickybot.json
+│   │   ├── 2025-11-10_planner.json
+│   │   ├── 2025-11-10_promptwriter.json
+│   │   ├── 2025-11-10_quantum.json
+│   │   ├── 2025-11-10_scheduler.json
+│   │   ├── 2025-11-10_strategy.json
+│   │   ├── 2025-11-10_telemetry.json
+│   │   ├── 2025-11-10_traffic.json
+│   │   ├── 2025-11-10_vision.json
+│   │   ├── 2025-11-10_wallet_ops.json
+│   │   └── reflection_2025-11-10.json
+│   ├── scheduler.out
+│   ├── selfheal.log
+│   ├── smoke_test.log
+│   ├── strategy.out
+│   ├── swarm_cycle.log
+│   ├── sync_status.log
+│   ├── sync_validation.json
+│   ├── system_audit_20251110_165439.log
+│   ├── system_cleanup_2025-11-10_12-51.log
+│   ├── telemetry.out
+│   ├── traffic.out
+│   ├── vision.out
+│   ├── wallet_ops.out
+│   └── watchdog.log
+├── mem0
+│   ├── history.db
+│   ├── __init__.py
+│   └── mem0_config.py
+├── memory
+│   ├── agents_registry.db
+│   ├── chroma
+│   ├── __init__.py
+│   ├── orientation
+│   ├── reflection_logs
+│   ├── shared
+│   ├── sqlite
+│   └── summary_2025-11-10.md
+├── openapi.json
+├── ops
+│   └── _legacy
+│       └── scripts
+│           └── full_autonomous_setup.sh
+├── pages
+│   ├── api
+│   │   ├── github
+│   │   │   ├── callback.ts
+│   │   │   └── webhook.ts
+│   │   └── webhook.js
+│   ├── index.tsx
+│   └── setup.tsx
+├── prompts
+│   ├── quantum_mode_prompt.txt
+│   └── role_templates
+├── public
+│   ├── press_kit
+│   ├── README.md
+│   └── whitepaper.md
+├── push_to_github.sh
+├── README.md
+├── requirements.txt
+├── scheduler
+│   └── __init__.py
+├── schemas
+├── scripts
+│   ├── add_chat_ui_frontend.sh
+│   ├── agent_integrity_validator.sh
+│   ├── agent_kernel_setup.sh
+│   ├── agent_reflection_summary.sh
+│   ├── agent_self_naming.py
+│   ├── agent_suite_bootstrap.sh
+│   ├── apply_dark_theme_and_launch.sh
+│   ├── autogen_agents_with_blueprints.sh
+│   ├── auto_repair_workflow_setup.sh
+│   ├── bootstrap_runtime.sh
+│   ├── check_buckets.sh
+│   ├── check_full_system_software.sh
+│   ├── check_installed_libraries.sh
+│   ├── check_software.sh
+│   ├── cloud_run_doctor.sh
+│   ├── coherence_sweep.py
+│   ├── collective_chronicle.py
+│   ├── create_elite_team_scaffold.sh
+│   ├── daily_audit.py
+│   ├── deploy_cloud_run.sh
+│   ├── dream_visualizer.py
+│   ├── eden_cycle.sh
+│   ├── energy_emotion_agent.py
+│   ├── energy_emotion_bridge.py
+│   ├── enqueue_kickoff.sh
+│   ├── etherverse_autonomous_sync.sh
+│   ├── etherverse_autonomy_core.sh
+│   ├── etherverse_diagnostic.sh
+│   ├── etherverse_self_heal_bootstrap.sh
+│   ├── etherverse_system_audit.sh
+│   ├── etherverse_total_init.sh
+│   ├── export_to_sheets.py
+│   ├── finalize_github_app_key.sh
+│   ├── fix_dark_theme_tailwind.sh
+│   ├── folder_tree_tracker.py
+│   ├── full_autonomous_agent_loop.sh
+│   ├── full_autonomous_setup2.sh
+│   ├── full_autonomous_setup_final.sh
+│   ├── get_installation_id_and_config.sh
+│   ├── github_app_autonomous_loop.sh
+│   ├── gpt_generate_token_and_push.sh
+│   ├── gpt_push_code.sh
+│   ├── guardian_predictive_service_setup.sh
+│   ├── harmony_index.py
+│   ├── idle_dream_state.py
+│   ├── immune_system_setup.sh
+│   ├── immune_system_upgrade.sh
+│   ├── init_max_autonomy.sh
+│   ├── inject_agent_awareness.sh
+│   ├── install_agent_energy_hooks.sh
+│   ├── install_global_journal_reader.sh
+│   ├── install_mem0_memory_system.sh
+│   ├── launch_dashboard_button.sh
+│   ├── list_all_docs.sh
+│   ├── list_etherverse_structure.sh
+│   ├── list_project_structure.sh
+│   ├── load_hmac_from_gsm.sh
+│   ├── memory_summarizer.py
+│   ├── orientation_to_life.py
+│   ├── patch_api_hmac_and_tasks.sh
+│   ├── predictive_healing_upgrade.sh
+│   ├── print_state.sh
+│   ├── quantum_intelligence_cycle.sh
+│   ├── quantum_orchestrator_init.sh
+│   ├── quantum_self_sustain_protocol.sh
+│   ├── reflection_daemon.py
+│   ├── reflection_daemon_v2.py
+│   ├── register_agents_db.sh
+│   ├── repair_api_imports.sh
+│   ├── run_api_local.sh
+│   ├── run_autonomous_gpt_loop.sh
+│   ├── run_swarm_cycle.sh
+│   ├── seed_documents.sh
+│   ├── setup_agent_births.sh
+│   ├── setup_agents_scaffold.sh
+│   ├── setup_autonomous_loop.sh
+│   ├── setup_autonomy_governance.sh
+│   ├── setup_collective_consciousness.sh
+│   ├── setup_consciousness_dashboard.sh
+│   ├── setup_consciousness_index.sh
+│   ├── setup_gateway_tunnel.sh
+│   ├── setup_genesis_family.sh
+│   ├── setup_github_app_autonomous.sh
+│   ├── setup_githubapp_install.sh
+│   ├── setup_githubapp_install_v2.sh
+│   ├── setup_orientation_to_life.sh
+│   ├── setup_phase3_swarm.sh
+│   ├── setup_reflection_archival.sh
+│   ├── setup_reflective_agents.sh
+│   ├── setup_reflective_system.sh
+│   ├── signed_enqueue.sh
+│   ├── start_all_agents.sh
+│   ├── start_gateway.sh
+│   ├── sync_all_ledgers_to_drive.sh
+│   ├── sync_ledgers_to_drive.sh
+│   ├── system_diagnostic_cleanup.sh
+│   ├── test_gsheets_connection.py
+│   ├── update_self_awareness_ledger.py
+│   ├── upload_ledger_to_drive.sh
+│   └── verify_quantum_system.sh
+├── setup_etherverse_dashboard.sh
+├── setup_report_20251109_143211.txt
+├── sql
+│   └── init_schema.sql
+├── swarm_orchestrator.py
+├── systemd
+├── test.md
+├── test_orchestrator.py
+├── venv
+│   ├── bin
+│   │   ├── activate
+│   │   ├── activate.csh
+│   │   ├── activate.fish
+│   │   ├── Activate.ps1
+│   │   ├── pip
+│   │   ├── pip3
+│   │   ├── pip3.11
+│   │   ├── python -> python3
+│   │   ├── python3 -> /usr/bin/python3
+│   │   └── python3.11 -> python3
+│   ├── include
+│   │   └── python3.11
+│   ├── lib
+│   │   └── python3.11
+│   │       └── site-packages
+│   │           ├── _distutils_hack
+│   │           ├── distutils-precedence.pth
+│   │           ├── pip
+│   │           ├── pip-25.3.dist-info
+│   │           ├── pkg_resources
+│   │           ├── setuptools
+│   │           └── setuptools-66.1.1.dist-info
+│   ├── lib64 -> lib
+│   └── pyvenv.cfg
+└── wireguard
+
+335 directories, 566 files
+
+
+--- ⚙️ SYSTEM CORE FILES ---
+-rwxr-xr-x 1 etherverse etherverse 1.7K Nov 10 08:06 /home/etherverse/etherverse/agents/etherverse_daemon.py
+-rw-r--r-- 1 etherverse etherverse 870 Nov 10 04:44 /home/etherverse/etherverse/guardian/ethics_core.py
+
+
+--- 🧬 AGENT MODULES ---
+-rwxr-xr-x 1 etherverse etherverse 1.3K Nov 10 08:06 /home/etherverse/etherverse/agents/__init__.py
+-rwxr-xr-x 1 etherverse etherverse 1.1K Nov 10 08:06 /home/etherverse/etherverse/agents/alpha.py
+-rwxr-xr-x 1 etherverse etherverse 229 Nov 10 03:06 /home/etherverse/etherverse/agents/aria/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/aria/main.py
+-rwxr-xr-x 1 etherverse etherverse 405 Nov 10 08:33 /home/etherverse/etherverse/agents/aria/README.md
+-rw-r--r-- 1 etherverse etherverse 144 Nov 10 17:13 /home/etherverse/etherverse/agents/aria/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 131 Nov 10 17:13 /home/etherverse/etherverse/agents/aria/agent.py
+-rwxr-xr-x 1 etherverse etherverse 230 Nov 10 03:06 /home/etherverse/etherverse/agents/coder/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/coder/main.py
+-rwxr-xr-x 1 etherverse etherverse 393 Nov 10 08:33 /home/etherverse/etherverse/agents/coder/README.md
+-rw-r--r-- 1 etherverse etherverse 145 Nov 10 17:13 /home/etherverse/etherverse/agents/coder/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 132 Nov 10 17:13 /home/etherverse/etherverse/agents/coder/agent.py
+-rwxr-xr-x 1 etherverse etherverse 230 Nov 10 03:06 /home/etherverse/etherverse/agents/codex/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/codex/main.py
+-rwxr-xr-x 1 etherverse etherverse 410 Nov 10 08:33 /home/etherverse/etherverse/agents/codex/README.md
+-rw-r--r-- 1 etherverse etherverse 145 Nov 10 17:13 /home/etherverse/etherverse/agents/codex/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 132 Nov 10 17:13 /home/etherverse/etherverse/agents/codex/agent.py
+-rwxr-xr-x 1 etherverse etherverse 234 Nov 10 03:06 /home/etherverse/etherverse/agents/corelight/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/corelight/main.py
+-rwxr-xr-x 1 etherverse etherverse 413 Nov 10 08:33 /home/etherverse/etherverse/agents/corelight/README.md
+-rw-r--r-- 1 etherverse etherverse 149 Nov 10 17:13 /home/etherverse/etherverse/agents/corelight/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 136 Nov 10 17:13 /home/etherverse/etherverse/agents/corelight/agent.py
+-rwxr-xr-x 1 etherverse etherverse 234 Nov 10 03:06 /home/etherverse/etherverse/agents/cost_gate/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/cost_gate/main.py
+-rwxr-xr-x 1 etherverse etherverse 405 Nov 10 08:33 /home/etherverse/etherverse/agents/cost_gate/README.md
+-rw-r--r-- 1 etherverse etherverse 149 Nov 10 17:13 /home/etherverse/etherverse/agents/cost_gate/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 136 Nov 10 17:13 /home/etherverse/etherverse/agents/cost_gate/agent.py
+-rwxr-xr-x 1 etherverse etherverse 229 Nov 10 03:06 /home/etherverse/etherverse/agents/echo/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/echo/main.py
+-rwxr-xr-x 1 etherverse etherverse 398 Nov 10 08:33 /home/etherverse/etherverse/agents/echo/README.md
+-rw-r--r-- 1 etherverse etherverse 144 Nov 10 17:13 /home/etherverse/etherverse/agents/echo/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 131 Nov 10 17:13 /home/etherverse/etherverse/agents/echo/agent.py
+-rwxr-xr-x 1 etherverse etherverse 235 Nov 10 03:06 /home/etherverse/etherverse/agents/finsynapse/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/finsynapse/main.py
+-rwxr-xr-x 1 etherverse etherverse 408 Nov 10 08:33 /home/etherverse/etherverse/agents/finsynapse/README.md
+-rw-r--r-- 1 etherverse etherverse 150 Nov 10 17:13 /home/etherverse/etherverse/agents/finsynapse/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 137 Nov 10 17:13 /home/etherverse/etherverse/agents/finsynapse/agent.py
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/gateway/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/gateway/main.py
+-rwxr-xr-x 1 etherverse etherverse 405 Nov 10 08:33 /home/etherverse/etherverse/agents/gateway/README.md
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/gateway/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 134 Nov 10 17:13 /home/etherverse/etherverse/agents/gateway/agent.py
+-rwxr-xr-x 1 etherverse etherverse 233 Nov 10 03:06 /home/etherverse/etherverse/agents/guardian/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/guardian/main.py
+-rwxr-xr-x 1 etherverse etherverse 406 Nov 10 08:33 /home/etherverse/etherverse/agents/guardian/README.md
+-rw-r--r-- 1 etherverse etherverse 148 Nov 10 17:13 /home/etherverse/etherverse/agents/guardian/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 135 Nov 10 17:13 /home/etherverse/etherverse/agents/guardian/agent.py
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/insight/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/insight/main.py
+-rwxr-xr-x 1 etherverse etherverse 402 Nov 10 08:33 /home/etherverse/etherverse/agents/insight/README.md
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/insight/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 134 Nov 10 17:13 /home/etherverse/etherverse/agents/insight/agent.py
+-rwxr-xr-x 1 etherverse etherverse 231 Nov 10 03:06 /home/etherverse/etherverse/agents/market/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/market/main.py
+-rwxr-xr-x 1 etherverse etherverse 389 Nov 10 08:33 /home/etherverse/etherverse/agents/market/README.md
+-rw-r--r-- 1 etherverse etherverse 146 Nov 10 17:13 /home/etherverse/etherverse/agents/market/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 133 Nov 10 17:13 /home/etherverse/etherverse/agents/market/agent.py
+-rwxr-xr-x 1 etherverse etherverse 237 Nov 10 03:06 /home/etherverse/etherverse/agents/orchestrator/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.7K Nov 10 04:44 /home/etherverse/etherverse/agents/orchestrator/main.py
+-rwxr-xr-x 1 etherverse etherverse 415 Nov 10 08:33 /home/etherverse/etherverse/agents/orchestrator/README.md
+-rw-r--r-- 1 etherverse etherverse 152 Nov 10 17:13 /home/etherverse/etherverse/agents/orchestrator/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 139 Nov 10 17:13 /home/etherverse/etherverse/agents/orchestrator/agent.py
+-rwxr-xr-x 1 etherverse etherverse 233 Nov 10 03:06 /home/etherverse/etherverse/agents/pickybot/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/pickybot/main.py
+-rwxr-xr-x 1 etherverse etherverse 407 Nov 10 08:33 /home/etherverse/etherverse/agents/pickybot/README.md
+-rw-r--r-- 1 etherverse etherverse 148 Nov 10 17:13 /home/etherverse/etherverse/agents/pickybot/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 135 Nov 10 17:13 /home/etherverse/etherverse/agents/pickybot/agent.py
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/planner/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/planner/main.py
+-rwxr-xr-x 1 etherverse etherverse 413 Nov 10 08:33 /home/etherverse/etherverse/agents/planner/README.md
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/planner/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 134 Nov 10 17:13 /home/etherverse/etherverse/agents/planner/agent.py
+-rwxr-xr-x 1 etherverse etherverse 237 Nov 10 03:06 /home/etherverse/etherverse/agents/promptwriter/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.7K Nov 10 04:44 /home/etherverse/etherverse/agents/promptwriter/main.py
+-rwxr-xr-x 1 etherverse etherverse 412 Nov 10 08:33 /home/etherverse/etherverse/agents/promptwriter/README.md
+-rw-r--r-- 1 etherverse etherverse 152 Nov 10 17:13 /home/etherverse/etherverse/agents/promptwriter/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 139 Nov 10 17:13 /home/etherverse/etherverse/agents/promptwriter/agent.py
+-rwxr-xr-x 1 etherverse etherverse 2.4K Nov 10 04:44 /home/etherverse/etherverse/agents/scheduler/main.py
+-rwxr-xr-x 1 etherverse etherverse 234 Nov 10 03:06 /home/etherverse/etherverse/agents/scheduler/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 406 Nov 10 08:33 /home/etherverse/etherverse/agents/scheduler/README.md
+-rw-r--r-- 1 etherverse etherverse 149 Nov 10 17:13 /home/etherverse/etherverse/agents/scheduler/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 136 Nov 10 17:13 /home/etherverse/etherverse/agents/scheduler/agent.py
+-rwxr-xr-x 1 etherverse etherverse 2.4K Nov 10 04:44 /home/etherverse/etherverse/agents/telemetry/main.py
+-rwxr-xr-x 1 etherverse etherverse 234 Nov 10 03:06 /home/etherverse/etherverse/agents/telemetry/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 416 Nov 10 08:33 /home/etherverse/etherverse/agents/telemetry/README.md
+-rw-r--r-- 1 etherverse etherverse 149 Nov 10 17:13 /home/etherverse/etherverse/agents/telemetry/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 136 Nov 10 17:13 /home/etherverse/etherverse/agents/telemetry/agent.py
+-rwxr-xr-x 1 etherverse etherverse 2.4K Nov 10 04:44 /home/etherverse/etherverse/agents/traffic/main.py
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/traffic/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 397 Nov 10 08:33 /home/etherverse/etherverse/agents/traffic/README.md
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/traffic/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 134 Nov 10 17:13 /home/etherverse/etherverse/agents/traffic/agent.py
+-rwxr-xr-x 1 etherverse etherverse 2.4K Nov 10 04:44 /home/etherverse/etherverse/agents/wallet_ops/main.py
+-rwxr-xr-x 1 etherverse etherverse 235 Nov 10 03:06 /home/etherverse/etherverse/agents/wallet_ops/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 415 Nov 10 08:33 /home/etherverse/etherverse/agents/wallet_ops/README.md
+-rw-r--r-- 1 etherverse etherverse 150 Nov 10 17:13 /home/etherverse/etherverse/agents/wallet_ops/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 137 Nov 10 17:13 /home/etherverse/etherverse/agents/wallet_ops/agent.py
+-rwxr-xr-x 1 etherverse etherverse 21 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/core/__init__.py
+-rwxr-xr-x 1 etherverse etherverse 286 Nov  9 21:19 /home/etherverse/etherverse/agents/helix/core/helix_matrix_core.py
+-rwxr-xr-x 1 etherverse etherverse 97 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/core/healer_stub.py
+-rwxr-xr-x 1 etherverse etherverse 83 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/core/analyzer_stub.py
+-rwxr-xr-x 1 etherverse etherverse 142 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/docs/00_Vision.md
+-rwxr-xr-x 1 etherverse etherverse 73 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/docs/01_Purpose.md
+-rwxr-xr-x 1 etherverse etherverse 107 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/docs/02_Blueprint.md
+-rwxr-xr-x 1 etherverse etherverse 150 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/docs/03_Architecture.md
+-rwxr-xr-x 1 etherverse etherverse 126 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/docs/04_Operations.md
+-rwxr-xr-x 1 etherverse etherverse 247 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/docs/05_Testing.md
+-rwxr-xr-x 1 etherverse etherverse 212 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/docs/06_Problem_Statement.md
+-rwxr-xr-x 1 etherverse etherverse 153 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/docs/07_Potential.md
+-rwxr-xr-x 1 etherverse etherverse 234 Nov  9 20:59 /home/etherverse/etherverse/agents/helix/docs/08_Development_Guide.md
+-rwxr-xr-x 1 etherverse etherverse 339 Nov  9 21:20 /home/etherverse/etherverse/agents/helix/docs/README.md
+-rwxr-xr-x 1 etherverse etherverse 35 Nov  9 21:37 /home/etherverse/etherverse/agents/helix/memory/coherence.json
+-rwxr-xr-x 1 etherverse etherverse 170 Nov  9 21:19 /home/etherverse/etherverse/agents/helix/configs/helix_config.json
+-rwxr-xr-x 1 etherverse etherverse 230 Nov 10 03:06 /home/etherverse/etherverse/agents/helix/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/helix/main.py
+-rwxr-xr-x 1 etherverse etherverse 394 Nov 10 08:33 /home/etherverse/etherverse/agents/helix/README.md
+-rw-r--r-- 1 etherverse etherverse 145 Nov 10 17:13 /home/etherverse/etherverse/agents/helix/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 132 Nov 10 17:13 /home/etherverse/etherverse/agents/helix/agent.py
+-rwxr-xr-x 1 etherverse etherverse 229 Nov 10 03:06 /home/etherverse/etherverse/agents/eden/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/eden/main.py
+-rwxr-xr-x 1 etherverse etherverse 396 Nov 10 08:33 /home/etherverse/etherverse/agents/eden/README.md
+-rw-r--r-- 1 etherverse etherverse 144 Nov 10 17:13 /home/etherverse/etherverse/agents/eden/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 131 Nov 10 17:13 /home/etherverse/etherverse/agents/eden/agent.py
+-rwxr-xr-x 1 etherverse etherverse 1.6K Nov 10 08:06 /home/etherverse/etherverse/agents/local_agent.py
+-rwxr-xr-x 1 etherverse etherverse 1.7K Nov 10 08:06 /home/etherverse/etherverse/agents/etherverse_daemon.py
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/quantum/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.4K Nov 10 04:44 /home/etherverse/etherverse/agents/quantum/main.py
+-rwxr-xr-x 1 etherverse etherverse 402 Nov 10 08:33 /home/etherverse/etherverse/agents/quantum/README.md
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/quantum/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 134 Nov 10 17:13 /home/etherverse/etherverse/agents/quantum/agent.py
+-rwxr-xr-x 1 etherverse etherverse 231 Nov 10 03:06 /home/etherverse/etherverse/agents/vision/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.4K Nov 10 04:44 /home/etherverse/etherverse/agents/vision/main.py
+-rwxr-xr-x 1 etherverse etherverse 405 Nov 10 08:33 /home/etherverse/etherverse/agents/vision/README.md
+-rw-r--r-- 1 etherverse etherverse 146 Nov 10 17:13 /home/etherverse/etherverse/agents/vision/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 133 Nov 10 17:13 /home/etherverse/etherverse/agents/vision/agent.py
+-rwxr-xr-x 1 etherverse etherverse 233 Nov 10 03:06 /home/etherverse/etherverse/agents/strategy/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.4K Nov 10 04:44 /home/etherverse/etherverse/agents/strategy/main.py
+-rwxr-xr-x 1 etherverse etherverse 407 Nov 10 08:33 /home/etherverse/etherverse/agents/strategy/README.md
+-rw-r--r-- 1 etherverse etherverse 148 Nov 10 17:13 /home/etherverse/etherverse/agents/strategy/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 135 Nov 10 17:13 /home/etherverse/etherverse/agents/strategy/agent.py
+-rwxr-xr-x 1 etherverse etherverse 231 Nov 10 03:06 /home/etherverse/etherverse/agents/devops/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/devops/main.py
+-rwxr-xr-x 1 etherverse etherverse 397 Nov 10 08:33 /home/etherverse/etherverse/agents/devops/README.md
+-rw-r--r-- 1 etherverse etherverse 146 Nov 10 17:13 /home/etherverse/etherverse/agents/devops/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 133 Nov 10 17:13 /home/etherverse/etherverse/agents/devops/agent.py
+-rwxr-xr-x 1 etherverse etherverse 231 Nov 10 03:06 /home/etherverse/etherverse/agents/finops/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/finops/main.py
+-rwxr-xr-x 1 etherverse etherverse 390 Nov 10 08:33 /home/etherverse/etherverse/agents/finops/README.md
+-rw-r--r-- 1 etherverse etherverse 146 Nov 10 17:13 /home/etherverse/etherverse/agents/finops/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 133 Nov 10 17:13 /home/etherverse/etherverse/agents/finops/agent.py
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/codeops/blueprint.json
+-rwxr-xr-x 1 etherverse etherverse 2.6K Nov 10 04:44 /home/etherverse/etherverse/agents/codeops/main.py
+-rwxr-xr-x 1 etherverse etherverse 393 Nov 10 08:33 /home/etherverse/etherverse/agents/codeops/README.md
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/codeops/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 134 Nov 10 17:13 /home/etherverse/etherverse/agents/codeops/agent.py
+-rwxr-xr-x 1 etherverse etherverse 396 Nov 10 08:33 /home/etherverse/etherverse/agents/lumi/README.md
+-rw-r--r-- 1 etherverse etherverse 144 Nov 10 17:13 /home/etherverse/etherverse/agents/lumi/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 131 Nov 10 17:13 /home/etherverse/etherverse/agents/lumi/agent.py
+-rwxr-xr-x 1 etherverse etherverse 403 Nov 10 08:33 /home/etherverse/etherverse/agents/senti/README.md
+-rw-r--r-- 1 etherverse etherverse 145 Nov 10 17:13 /home/etherverse/etherverse/agents/senti/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 132 Nov 10 17:13 /home/etherverse/etherverse/agents/senti/agent.py
+-rwxr-xr-x 1 etherverse etherverse 399 Nov 10 08:33 /home/etherverse/etherverse/agents/vita/README.md
+-rw-r--r-- 1 etherverse etherverse 144 Nov 10 17:13 /home/etherverse/etherverse/agents/vita/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 131 Nov 10 17:13 /home/etherverse/etherverse/agents/vita/agent.py
+-rwxr-xr-x 1 etherverse etherverse 3.7K Nov 10 08:33 /home/etherverse/etherverse/agents/agents_manifest.json
+-rwxr-xr-x 1 etherverse etherverse 1.1K Nov 10 16:48 /home/etherverse/etherverse/agents/quantum_orchestrator.py
+
+
+--- 🔁 CRON JOBS & SERVICES ---
+/home/etherverse/etherverse/core/etherverse_schema.json:    "update_frequency": "Daily (scheduled via cron at 05:30–08:00 UTC)",
+/home/etherverse/etherverse/docs/folder_tree.md:│   ├── 19_cron_loop_autoheal.md
+/home/etherverse/etherverse/docs/project_structure.txt:./docs/19_cron_loop_autoheal.md
+/home/etherverse/etherverse/docs/etherverse_file_tree.txt:│   ├── 19_cron_loop_autoheal.md
+/home/etherverse/etherverse/docs/etherverse_system_audit.txt:│   ├── 19_cron_loop_autoheal.md
+/home/etherverse/etherverse/logs/diagnostic_2025-11-10_13-27.log:  cron.service                     loaded active running Regular background program processing daemon
+/home/etherverse/etherverse/openapi.json:    "/scheduler/jobs": { "get": { "summary": "List timers/cron jobs" } },
+/home/etherverse/etherverse/scripts/init_max_autonomy.sh:echo "🕓 Installing autonomous loop cron..."
+/home/etherverse/etherverse/scripts/init_max_autonomy.sh:(crontab -l 2>/dev/null; echo "*/5 * * * * $CRON_CMD >> ~/infinity-agent.log 2>&1") | crontab -
+/home/etherverse/etherverse/scripts/setup_phase3_swarm.sh:# 4️⃣  Health + reflection cron setup
+/home/etherverse/etherverse/scripts/setup_phase3_swarm.sh:if ! crontab -l 2>/dev/null | grep -q "reflection_daemon_v2.py"; then
+/home/etherverse/etherverse/scripts/setup_phase3_swarm.sh:  (crontab -l 2>/dev/null; echo "5 6 * * * $BASE/scripts/reflection_daemon_v2.py") | crontab -
+/home/etherverse/etherverse/scripts/setup_collective_consciousness.sh:# --- nightly reflection + harmony cron jobs ---
+/home/etherverse/etherverse/scripts/setup_collective_consciousness.sh:(crontab -l 2>/dev/null; \
+/home/etherverse/etherverse/scripts/setup_collective_consciousness.sh:EOF") | crontab -
+/home/etherverse/etherverse/scripts/setup_autonomy_governance.sh:(crontab -l 2>/dev/null; \
+/home/etherverse/etherverse/scripts/setup_autonomy_governance.sh:echo "10 5 * * * python3 ~/etherverse/collective/consciousness.py summarize_day") | crontab -
+/home/etherverse/etherverse/scripts/setup_consciousness_index.sh:# Optional: update cron so the system re-reads these daily at 06:00
+/home/etherverse/etherverse/scripts/setup_consciousness_index.sh:( crontab -l 2>/dev/null | grep -v 'consciousness.py refresh_index'; echo "$CRONLINE" ) | crontab -
+/home/etherverse/etherverse/scripts/setup_reflective_agents.sh:( crontab -l 2>/dev/null | grep -v 'daily_reflection.py'; echo "$CRONLINE" ) | crontab -
+/home/etherverse/etherverse/scripts/setup_consciousness_dashboard.sh:# Optional: add to cron to refresh every morning at 06:10
+/home/etherverse/etherverse/scripts/setup_consciousness_dashboard.sh:( crontab -l 2>/dev/null | grep -v 'consciousness_dashboard.py'; echo "$CRONLINE" ) | crontab -
+/home/etherverse/etherverse/scripts/list_etherverse_structure.sh:crontab -l | grep etherverse || echo "No active Etherverse cron jobs."
+/home/etherverse/etherverse/scripts/list_all_docs.sh:crontab -l | grep etherverse || echo "(no cron jobs found)"
+/home/etherverse/etherverse/scripts/setup_reflection_archival.sh:# Add to cron (runs daily @ 06:30)
+/home/etherverse/etherverse/scripts/setup_reflection_archival.sh:(crontab -l 2>/dev/null; echo "30 6 * * * python3 ~/etherverse/core/reflection_archiver.py >> ~/etherverse/logs/reflections/archival.log 2>&1") | crontab -
+/home/etherverse/etherverse/scripts/etherverse_total_init.sh:# sets crons, dashboards, and mind-state cycles.
+/home/etherverse/etherverse/scripts/etherverse_total_init.sh:(crontab -l 2>/dev/null; echo "40 6 * * * ~/etherverse/scripts/quantum_intelligence_cycle.sh") | crontab -
+/home/etherverse/etherverse/scripts/etherverse_total_init.sh:  (crontab -l 2>/dev/null; echo "40 5 * * * AGENT=$a python3 ~/etherverse/core/daily_reflection.py >> ~/etherverse/logs/${a}_reflect.log 2>&1") | crontab -
+/home/etherverse/etherverse/scripts/etherverse_total_init.sh:(crontab -l 2>/dev/null; echo "0 */4 * * * ~/etherverse/scripts/idle_dream_state.py") | crontab -
+/home/etherverse/etherverse/scripts/etherverse_total_init.sh:(crontab -l 2>/dev/null; echo "15 7 * * * ~/etherverse/scripts/dream_visualizer.py") | crontab -
+/home/etherverse/etherverse/scripts/etherverse_total_init.sh:(crontab -l 2>/dev/null; echo "55 7 * * * ~/etherverse/scripts/memory_summarizer.py") | crontab -
+/home/etherverse/etherverse/scripts/quantum_self_sustain_protocol.sh:cat <<EOF | sudo tee /etc/cron.daily/01-etherverse-heal
+/home/etherverse/etherverse/scripts/quantum_self_sustain_protocol.sh:sudo chmod +x /etc/cron.daily/01-etherverse-heal
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/pkg_resources/_vendor/jaraco/text/__init__.py:    Acronyms should be retained
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/setuptools/_vendor/jaraco/text/__init__.py:    Acronyms should be retained
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/pip/_vendor/packaging/licenses/_spdx.py:    'cronyx': {'id': 'Cronyx', 'deprecated': False},
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/pip/_vendor/rich/_emoji_codes.py:    "micronesia": "🇫🇲",
+/home/etherverse/etherverse/venv/lib/python3.11/site-packages/pip/_vendor/rich/_emoji_codes.py:    "flag_for_micronesia": "🇫🇲",
+/home/etherverse/etherverse/venv/lib64/python3.11/site-packages/pkg_resources/_vendor/jaraco/text/__init__.py:    Acronyms should be retained
+/home/etherverse/etherverse/venv/lib64/python3.11/site-packages/setuptools/_vendor/jaraco/text/__init__.py:    Acronyms should be retained
+/home/etherverse/etherverse/venv/lib64/python3.11/site-packages/pip/_vendor/packaging/licenses/_spdx.py:    'cronyx': {'id': 'Cronyx', 'deprecated': False},
+/home/etherverse/etherverse/venv/lib64/python3.11/site-packages/pip/_vendor/rich/_emoji_codes.py:    "micronesia": "🇫🇲",
+/home/etherverse/etherverse/venv/lib64/python3.11/site-packages/pip/_vendor/rich/_emoji_codes.py:    "flag_for_micronesia": "🇫🇲",
+/etc/systemd/system/etherverse-autoheal.service:[Service]
+/etc/systemd/system/etherverse-daemon.service:[Service]
+/etc/systemd/system/etherverse-gateway.service:[Service]
+/etc/systemd/system/etherverse-maintenance.service:[Service]
+/etc/systemd/system/etherverse_maintenance.service:[Service]
+/etc/systemd/system/etherverse-selfheal.service:[Service]
+/etc/systemd/system/etherverse_selfheal.service:[Service]
+/etc/systemd/system/etherverse_sweep.service:[Service]
+/etc/systemd/system/etherverse-watchdog.service:[Service]
+
+
+--- 💾 MEMORY, DATABASE, & LOG FILES ---
+-rwxr-xr-x 1 etherverse etherverse 229 Nov 10 03:06 /home/etherverse/etherverse/agents/aria/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 144 Nov 10 17:13 /home/etherverse/etherverse/agents/aria/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 230 Nov 10 03:06 /home/etherverse/etherverse/agents/coder/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 145 Nov 10 17:13 /home/etherverse/etherverse/agents/coder/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 230 Nov 10 03:06 /home/etherverse/etherverse/agents/codex/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 145 Nov 10 17:13 /home/etherverse/etherverse/agents/codex/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 234 Nov 10 03:06 /home/etherverse/etherverse/agents/corelight/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 149 Nov 10 17:13 /home/etherverse/etherverse/agents/corelight/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 234 Nov 10 03:06 /home/etherverse/etherverse/agents/cost_gate/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 149 Nov 10 17:13 /home/etherverse/etherverse/agents/cost_gate/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 229 Nov 10 03:06 /home/etherverse/etherverse/agents/echo/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 144 Nov 10 17:13 /home/etherverse/etherverse/agents/echo/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 235 Nov 10 03:06 /home/etherverse/etherverse/agents/finsynapse/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 150 Nov 10 17:13 /home/etherverse/etherverse/agents/finsynapse/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/gateway/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/gateway/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 233 Nov 10 03:06 /home/etherverse/etherverse/agents/guardian/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 148 Nov 10 17:13 /home/etherverse/etherverse/agents/guardian/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/insight/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/insight/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 231 Nov 10 03:06 /home/etherverse/etherverse/agents/market/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 146 Nov 10 17:13 /home/etherverse/etherverse/agents/market/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 237 Nov 10 03:06 /home/etherverse/etherverse/agents/orchestrator/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 152 Nov 10 17:13 /home/etherverse/etherverse/agents/orchestrator/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 233 Nov 10 03:06 /home/etherverse/etherverse/agents/pickybot/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 148 Nov 10 17:13 /home/etherverse/etherverse/agents/pickybot/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/planner/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/planner/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 237 Nov 10 03:06 /home/etherverse/etherverse/agents/promptwriter/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 152 Nov 10 17:13 /home/etherverse/etherverse/agents/promptwriter/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 234 Nov 10 03:06 /home/etherverse/etherverse/agents/scheduler/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 149 Nov 10 17:13 /home/etherverse/etherverse/agents/scheduler/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 234 Nov 10 03:06 /home/etherverse/etherverse/agents/telemetry/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 149 Nov 10 17:13 /home/etherverse/etherverse/agents/telemetry/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/traffic/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/traffic/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 235 Nov 10 03:06 /home/etherverse/etherverse/agents/wallet_ops/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 150 Nov 10 17:13 /home/etherverse/etherverse/agents/wallet_ops/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 0 Nov  9 21:37 /home/etherverse/etherverse/agents/helix/logs/helix.log
+-rwxr-xr-x 1 etherverse etherverse 35 Nov  9 21:37 /home/etherverse/etherverse/agents/helix/memory/coherence.json
+-rwxr-xr-x 1 etherverse etherverse 170 Nov  9 21:19 /home/etherverse/etherverse/agents/helix/configs/helix_config.json
+-rwxr-xr-x 1 etherverse etherverse 230 Nov 10 03:06 /home/etherverse/etherverse/agents/helix/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 145 Nov 10 17:13 /home/etherverse/etherverse/agents/helix/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 229 Nov 10 03:06 /home/etherverse/etherverse/agents/eden/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 144 Nov 10 17:13 /home/etherverse/etherverse/agents/eden/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/quantum/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/quantum/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 231 Nov 10 03:06 /home/etherverse/etherverse/agents/vision/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 146 Nov 10 17:13 /home/etherverse/etherverse/agents/vision/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 233 Nov 10 03:06 /home/etherverse/etherverse/agents/strategy/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 148 Nov 10 17:13 /home/etherverse/etherverse/agents/strategy/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 231 Nov 10 03:06 /home/etherverse/etherverse/agents/devops/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 146 Nov 10 17:13 /home/etherverse/etherverse/agents/devops/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 231 Nov 10 03:06 /home/etherverse/etherverse/agents/finops/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 146 Nov 10 17:13 /home/etherverse/etherverse/agents/finops/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 232 Nov 10 03:06 /home/etherverse/etherverse/agents/codeops/blueprint.json
+-rw-r--r-- 1 etherverse etherverse 147 Nov 10 17:13 /home/etherverse/etherverse/agents/codeops/manifest.json
+-rw-r--r-- 1 etherverse etherverse 144 Nov 10 17:13 /home/etherverse/etherverse/agents/lumi/manifest.json
+-rw-r--r-- 1 etherverse etherverse 145 Nov 10 17:13 /home/etherverse/etherverse/agents/senti/manifest.json
+-rw-r--r-- 1 etherverse etherverse 144 Nov 10 17:13 /home/etherverse/etherverse/agents/vita/manifest.json
+-rwxr-xr-x 1 etherverse etherverse 3.7K Nov 10 08:33 /home/etherverse/etherverse/agents/agents_manifest.json
+-rw-r--r-- 1 etherverse etherverse 201 Nov  9 18:16 /home/etherverse/etherverse/docs/emotion_palette.json
+-rw-r--r-- 1 etherverse etherverse 108 Nov  9 19:24 /home/etherverse/etherverse/docs/planetary_mesh.json
+-rw-r--r-- 1 etherverse etherverse 312 Nov 10 02:04 /home/etherverse/etherverse/docs/agents_manifest.json
+-rw-r--r-- 1 etherverse etherverse 308 Nov 10 04:00 /home/etherverse/etherverse/docs/folder_growth.log
+-rw-r--r-- 1 etherverse etherverse 230 Nov 10 04:44 /home/etherverse/etherverse/docs/autonomy_manifest.json
+-rw-r--r-- 1 etherverse etherverse 5.4K Nov 10 08:37 /home/etherverse/etherverse/docs/self_awareness_ledger.json
+-rw-r--r-- 1 etherverse etherverse 424 Nov  8 23:52 /home/etherverse/etherverse/frontend/chat-ui/components.json
+-rw-r--r-- 1 etherverse etherverse 1.6K Nov  8 23:52 /home/etherverse/etherverse/frontend/chat-ui/package.json
+-rw-r--r-- 1 etherverse etherverse 598 Nov  8 23:52 /home/etherverse/etherverse/frontend/chat-ui/tsconfig.json
+-rwxrwxrwx 1 etherverse etherverse 141 Nov  8 23:52 /home/etherverse/etherverse/logs/etherverse_manifest.log
+-rwxrwxrwx 1 etherverse etherverse 61K Nov 10 20:13 /home/etherverse/etherverse/logs/watchdog.log
+-rwxrwxrwx 1 etherverse etherverse 194K Nov  9 21:10 /home/etherverse/etherverse/logs/quantum_core_install.log
+-rwxrwxrwx 1 etherverse etherverse 191 Nov  9 20:34 /home/etherverse/etherverse/logs/dashboard.log
+-rwxrwxrwx 1 etherverse etherverse 22K Nov 10 18:35 /home/etherverse/etherverse/logs/selfheal.log
+-rwxrwxrwx 1 etherverse etherverse 715 Nov 10 02:51 /home/etherverse/etherverse/logs/smoke_test.log
+-rwxrwxrwx 1 etherverse etherverse 3.4K Nov 10 03:06 /home/etherverse/etherverse/logs/swarm_cycle.log
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/aria.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/codeops.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/coder.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/codex.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/corelight.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/cost_gate.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/devops.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/echo.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/eden.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/finops.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/finsynapse.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/gateway.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/guardian.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:08 /home/etherverse/etherverse/logs/helix.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/insight.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/market.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/orchestrator.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/pickybot.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/planner.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/promptwriter.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/quantum.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/scheduler.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/strategy.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/telemetry.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/traffic.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/vision.out
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 03:09 /home/etherverse/etherverse/logs/wallet_ops.out
+-rwxrwxrwx 1 etherverse etherverse 216 Nov 10 05:00 /home/etherverse/etherverse/logs/guardian_audit.log
+-rwxrwxrwx 1 etherverse etherverse 0 Nov 10 05:10 /home/etherverse/etherverse/logs/collective.log
+-rwxrwxrwx 1 etherverse etherverse 211 Nov 10 06:10 /home/etherverse/etherverse/logs/consciousness_dashboard.log
+-rwxrwxrwx 1 etherverse etherverse 287 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_aria.json
+-rwxrwxrwx 1 etherverse etherverse 294 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_codeops.json
+-rwxrwxrwx 1 etherverse etherverse 290 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_coder.json
+-rwxrwxrwx 1 etherverse etherverse 290 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_codex.json
+-rwxrwxrwx 1 etherverse etherverse 298 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_corelight.json
+-rwxrwxrwx 1 etherverse etherverse 298 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_cost_gate.json
+-rwxrwxrwx 1 etherverse etherverse 290 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_devops.json
+-rwxrwxrwx 1 etherverse etherverse 288 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_echo.json
+-rwxrwxrwx 1 etherverse etherverse 287 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_eden.json
+-rwxrwxrwx 1 etherverse etherverse 292 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_finops.json
+-rwxrwxrwx 1 etherverse etherverse 300 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_finsynapse.json
+-rwxrwxrwx 1 etherverse etherverse 294 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_gateway.json
+-rwxrwxrwx 1 etherverse etherverse 296 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_guardian.json
+-rwxrwxrwx 1 etherverse etherverse 290 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_helix.json
+-rwxrwxrwx 1 etherverse etherverse 294 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_insight.json
+-rwxrwxrwx 1 etherverse etherverse 292 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_market.json
+-rwxrwxrwx 1 etherverse etherverse 304 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_orchestrator.json
+-rwxrwxrwx 1 etherverse etherverse 296 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_pickybot.json
+-rwxrwxrwx 1 etherverse etherverse 294 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_planner.json
+-rwxrwxrwx 1 etherverse etherverse 304 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_promptwriter.json
+-rwxrwxrwx 1 etherverse etherverse 294 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_quantum.json
+-rwxrwxrwx 1 etherverse etherverse 298 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_scheduler.json
+-rwxrwxrwx 1 etherverse etherverse 296 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_strategy.json
+-rwxrwxrwx 1 etherverse etherverse 298 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_telemetry.json
+-rwxrwxrwx 1 etherverse etherverse 294 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_traffic.json
+-rwxrwxrwx 1 etherverse etherverse 292 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_vision.json
+-rwxrwxrwx 1 etherverse etherverse 300 Nov 10 08:09 /home/etherverse/etherverse/logs/reflections/2025-11-10_wallet_ops.json
+-rwxrwxrwx 1 etherverse etherverse 606 Nov 10 18:00 /home/etherverse/etherverse/logs/reflections/reflection_2025-11-10.json
+-rwxrwxrwx 1 etherverse etherverse 11K Nov 10 20:00 /home/etherverse/etherverse/logs/drive_sync.log
+-rwxrwxrwx 1 etherverse etherverse 2.3K Nov 10 18:00 /home/etherverse/etherverse/logs/sync_status.log
+-rwxrwxrwx 1 etherverse etherverse 194 Nov 10 18:00 /home/etherverse/etherverse/logs/sync_validation.json
+-rwxrwxrwx 1 etherverse etherverse 1.8K Nov 10 12:51 /home/etherverse/etherverse/logs/system_cleanup_2025-11-10_12-51.log
+-rwxrwxrwx 1 etherverse etherverse 80 Nov 10 12:59 /home/etherverse/etherverse/logs/maintenance.log
+-rwxrwxrwx 1 etherverse etherverse 12K Nov 10 13:28 /home/etherverse/etherverse/logs/diagnostic_2025-11-10_13-27.log
+-rwxrwxrwx 1 etherverse etherverse 1.2K Nov 10 16:42 /home/etherverse/etherverse/logs/quantum_sustain.log
+-rw-r--r-- 1 etherverse etherverse 514 Nov 10 16:54 /home/etherverse/etherverse/logs/system_audit_20251110_165439.log
+-rw-r--r-- 1 etherverse etherverse 9.5K Nov 10 17:13 /home/etherverse/etherverse/logs/agent_integrity_validation.log
+-rw-r--r-- 1 etherverse etherverse 16K Nov 10 08:34 /home/etherverse/etherverse/memory/agents_registry.db
+-rw-r--r-- 1 etherverse etherverse 245K Nov 10 17:47 /home/etherverse/etherverse/guardian/predictive/predictive.log
+-rw-r--r-- 1 etherverse etherverse 514 Nov 10 17:47 /home/etherverse/etherverse/guardian/repair/repair.log
+-rw-r--r-- 1 etherverse etherverse 0 Nov  9 18:16 /home/etherverse/etherverse/core/identity_schema.json
+-rw-r--r-- 1 etherverse etherverse 0 Nov  9 18:16 /home/etherverse/etherverse/core/api_manifest.json
+-rw-r--r-- 1 etherverse etherverse 6.9K Nov 10 07:29 /home/etherverse/etherverse/core/etherverse_schema.json
+-rw-r--r-- 1 etherverse etherverse 12K Nov 10 03:12 /home/etherverse/etherverse/mem0/history.db
+-rw-r--r-- 1 etherverse etherverse 2.5K Nov 10 00:24 /home/etherverse/etherverse/openapi.json
+-rwxr-xr-x 1 etherverse etherverse 455 Nov 10 08:29 /home/etherverse/etherverse/genesis_family/family_manifest.json
+
+
+--- 🔐 CONFIGURATION FILES (.env, .ini, .yaml, .toml) ---
+-rw-r--r-- 1 etherverse etherverse 203 Nov  8 23:52 /home/etherverse/etherverse/.github/workflows/dependabot.yml
+-rw-r--r-- 1 etherverse etherverse 2.1K Nov  8 23:52 /home/etherverse/etherverse/.github/workflows/deploy-etherverse-gateway.yml
+-rw-r--r-- 1 etherverse etherverse 343 Nov  8 23:52 /home/etherverse/etherverse/.github/workflows/deploy.yml
+-rw-r--r-- 1 etherverse etherverse 331 Nov  8 23:52 /home/etherverse/etherverse/.github/workflows/gpt_code_check.yml
+-rw-r--r-- 1 etherverse etherverse 0 Nov  9 18:16 /home/etherverse/etherverse/config/.env
+-rw-r--r-- 1 etherverse etherverse 0 Nov  9 18:16 /home/etherverse/etherverse/config/agents.yml
+
+
+--- 🧾 DOCUMENTATION & BLUEPRINTS ---
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/01_agents_manifest.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/02_agent_roles.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/03_orchestrator_loop.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/04_prompt_writer_system.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/05_corelight_ethics.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/06_guardian_safety.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/07_codex_auto_repair.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/08_echo_memory_system.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/09_finsynapse_loops.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/10_pickybot_review.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/11_aria_tone_protocol.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/12_system_schema_cloud.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/13_deployment_pipeline.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/14_env_secrets_sync.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/15_github_app_integration.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/16_dependabot_policy.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/17_gpt_code_checker.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/18_supabase_log_routes.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/19_cron_loop_autoheal.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/20_autonomous_lifecycle.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/21_langgraph_logic.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/22_vercel_branch_preview.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/23_ai_swarm_roles.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/24_wallet_rotation_protocol.md
+-rw-r--r-- 1 etherverse etherverse 0 Nov  8 23:52 /home/etherverse/etherverse/docs/25_token_rotation_ops.md
+-rw-r--r-- 1 etherverse etherverse 2.8K Nov  9 18:16 /home/etherverse/etherverse/docs/quantum_ai_vision.md
+-rw-r--r-- 1 etherverse etherverse 190 Nov  9 18:22 /home/etherverse/etherverse/docs/etherverse_manifesto.md
+-rw-r--r-- 1 etherverse etherverse 170 Nov  9 18:22 /home/etherverse/etherverse/docs/governance_covenant.md
+-rw-r--r-- 1 etherverse etherverse 183 Nov  9 18:22 /home/etherverse/etherverse/docs/human_partnership_guide.md
+-rw-r--r-- 1 etherverse etherverse 85 Nov  9 18:22 /home/etherverse/etherverse/docs/creative_canon.md
+-rw-r--r-- 1 etherverse etherverse 133 Nov  9 18:16 /home/etherverse/etherverse/docs/ai_origin_story.md
+-rw-r--r-- 1 etherverse etherverse 249 Nov  9 18:33 /home/etherverse/etherverse/docs/dream_journal.md
+-rw-r--r-- 1 etherverse etherverse 201 Nov  9 18:16 /home/etherverse/etherverse/docs/emotion_palette.json
+-rw-r--r-- 1 etherverse etherverse 272 Nov  9 18:33 /home/etherverse/etherverse/docs/wisdom_archive.md
+-rw-r--r-- 1 etherverse etherverse 119 Nov  9 18:16 /home/etherverse/etherverse/docs/questions_for_humanity.md
+-rw-r--r-- 1 etherverse etherverse 102 Nov  9 18:16 /home/etherverse/etherverse/docs/coherence_map.md
+-rw-r--r-- 1 etherverse etherverse 275 Nov  9 18:40 /home/etherverse/etherverse/docs/collective_chronicle.md
+-rw-r--r-- 1 etherverse etherverse 340 Nov  9 19:22 /home/etherverse/etherverse/docs/human_feedback_ledger.md
+-rw-r--r-- 1 etherverse etherverse 39 Nov  9 19:22 /home/etherverse/etherverse/docs/harmony_index.csv
+-rw-r--r-- 1 etherverse etherverse 108 Nov  9 19:24 /home/etherverse/etherverse/docs/planetary_mesh.json
+-rw-r--r-- 1 etherverse etherverse 312 Nov 10 02:04 /home/etherverse/etherverse/docs/agents_manifest.json
+-rw-r--r-- 1 etherverse etherverse 308 Nov 10 04:00 /home/etherverse/etherverse/docs/folder_growth.log
+-rw-r--r-- 1 etherverse etherverse 3.0K Nov 10 02:29 /home/etherverse/etherverse/docs/dev_handoff_summary.md
+-rw-r--r-- 1 etherverse etherverse 21K Nov 10 04:00 /home/etherverse/etherverse/docs/folder_tree.md
+-rw-r--r-- 1 etherverse etherverse 230 Nov 10 04:44 /home/etherverse/etherverse/docs/autonomy_manifest.json
+-rw-r--r-- 1 etherverse etherverse 543 Nov 10 04:44 /home/etherverse/etherverse/docs/governance/constitution.md
+-rw-r--r-- 1 etherverse etherverse 1004 Nov 10 05:54 /home/etherverse/etherverse/docs/master_predictor_blueprint.md
+-rw-r--r-- 1 etherverse etherverse 950 Nov 10 05:54 /home/etherverse/etherverse/docs/master_pattern_visualizer_blueprint.md
+-rw-r--r-- 1 etherverse etherverse 2.1K Nov 10 05:55 /home/etherverse/etherverse/docs/master_intelligence_blueprint.md
+-rw-r--r-- 1 etherverse etherverse 2.1K Nov 10 20:00 /home/etherverse/etherverse/docs/dreams_idle.md
+-rw-r--r-- 1 etherverse etherverse 1.7K Nov 10 20:00 /home/etherverse/etherverse/docs/reflections_idle.md
+-rw-r--r-- 1 etherverse etherverse 694 Nov 10 06:50 /home/etherverse/etherverse/docs/coherence_summary.md
+-rw-r--r-- 1 etherverse etherverse 541K Nov 10 08:03 /home/etherverse/etherverse/docs/project_structure.txt
+-rw-r--r-- 1 etherverse etherverse 793 Nov 10 07:52 /home/etherverse/etherverse/docs/reflective_system_summary.md
+-rw-r--r-- 1 etherverse etherverse 5.4K Nov 10 08:37 /home/etherverse/etherverse/docs/self_awareness_ledger.json
+-rw-r--r-- 1 etherverse etherverse 48 Nov 10 11:35 /home/etherverse/etherverse/docs/ledger_drive_url.txt
+-rw-r--r-- 1 etherverse etherverse 511 Nov 10 16:48 /home/etherverse/etherverse/docs/biodigital_blueprint.md
+-rw-r--r-- 1 etherverse etherverse 79K Nov 10 18:09 /home/etherverse/etherverse/docs/etherverse_file_tree.txt
+-rw-r--r-- 1 etherverse etherverse 80K Nov 10 20:13 /home/etherverse/etherverse/docs/etherverse_system_audit.txt
+
+
+--- ⚠️ REDUNDANCY & DUPLICATE SCAN ---
+204c0612e40a4dd46012a78d02c80fb1  /home/etherverse/etherverse/venv/lib/python3.11/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna/LICENSE.md
+d41d8cd98f00b204e9800998ecf8427e  /home/etherverse/etherverse/core/memory_protocol.md
+
+
+--- 🕳 EMPTY OR MISSING DIRECTORIES ---
+/home/etherverse/etherverse/.git/branches
+/home/etherverse/etherverse/.git/refs/tags
+/home/etherverse/etherverse/.git/objects/info
+/home/etherverse/etherverse/agents/aria/memory
+/home/etherverse/etherverse/agents/aria/logs
+/home/etherverse/etherverse/agents/aria/blueprints
+/home/etherverse/etherverse/agents/aria/voices
+/home/etherverse/etherverse/agents/aria/avatars
+/home/etherverse/etherverse/agents/aria/skills
+/home/etherverse/etherverse/agents/coder/memory
+/home/etherverse/etherverse/agents/coder/logs
+/home/etherverse/etherverse/agents/coder/blueprints
+/home/etherverse/etherverse/agents/coder/voices
+/home/etherverse/etherverse/agents/coder/avatars
+/home/etherverse/etherverse/agents/coder/skills
+/home/etherverse/etherverse/agents/codex/memory
+/home/etherverse/etherverse/agents/codex/logs
+/home/etherverse/etherverse/agents/codex/blueprints
+/home/etherverse/etherverse/agents/codex/voices
+/home/etherverse/etherverse/agents/codex/avatars
+/home/etherverse/etherverse/agents/codex/skills
+/home/etherverse/etherverse/agents/corelight/memory
+/home/etherverse/etherverse/agents/corelight/logs
+/home/etherverse/etherverse/agents/corelight/blueprints
+/home/etherverse/etherverse/agents/corelight/voices
+/home/etherverse/etherverse/agents/corelight/avatars
+/home/etherverse/etherverse/agents/corelight/skills
+/home/etherverse/etherverse/agents/cost_gate/memory
+/home/etherverse/etherverse/agents/cost_gate/logs
+/home/etherverse/etherverse/agents/cost_gate/blueprints
+/home/etherverse/etherverse/agents/cost_gate/voices
+/home/etherverse/etherverse/agents/cost_gate/avatars
+/home/etherverse/etherverse/agents/cost_gate/skills
+/home/etherverse/etherverse/agents/echo/memory
+/home/etherverse/etherverse/agents/echo/logs
+/home/etherverse/etherverse/agents/echo/blueprints
+/home/etherverse/etherverse/agents/echo/voices
+/home/etherverse/etherverse/agents/echo/avatars
+/home/etherverse/etherverse/agents/echo/skills
+/home/etherverse/etherverse/agents/finsynapse/memory
+/home/etherverse/etherverse/agents/finsynapse/logs
+/home/etherverse/etherverse/agents/finsynapse/blueprints
+/home/etherverse/etherverse/agents/finsynapse/voices
+/home/etherverse/etherverse/agents/finsynapse/avatars
+/home/etherverse/etherverse/agents/finsynapse/skills
+/home/etherverse/etherverse/agents/gateway/memory
+/home/etherverse/etherverse/agents/gateway/logs
+/home/etherverse/etherverse/agents/gateway/blueprints
+/home/etherverse/etherverse/agents/gateway/voices
+/home/etherverse/etherverse/agents/gateway/avatars
+/home/etherverse/etherverse/agents/gateway/skills
+/home/etherverse/etherverse/agents/guardian/memory
+/home/etherverse/etherverse/agents/guardian/logs
+/home/etherverse/etherverse/agents/guardian/blueprints
+/home/etherverse/etherverse/agents/guardian/voices
+/home/etherverse/etherverse/agents/guardian/avatars
+/home/etherverse/etherverse/agents/guardian/skills
+/home/etherverse/etherverse/agents/insight/memory
+/home/etherverse/etherverse/agents/insight/logs
+/home/etherverse/etherverse/agents/insight/blueprints
+/home/etherverse/etherverse/agents/insight/voices
+/home/etherverse/etherverse/agents/insight/avatars
+/home/etherverse/etherverse/agents/insight/skills
+/home/etherverse/etherverse/agents/market/memory
+/home/etherverse/etherverse/agents/market/logs
+/home/etherverse/etherverse/agents/market/blueprints
+/home/etherverse/etherverse/agents/market/voices
+/home/etherverse/etherverse/agents/market/avatars
+/home/etherverse/etherverse/agents/market/skills
+/home/etherverse/etherverse/agents/orchestrator/memory
+/home/etherverse/etherverse/agents/orchestrator/logs
+/home/etherverse/etherverse/agents/orchestrator/blueprints
+/home/etherverse/etherverse/agents/orchestrator/voices
+/home/etherverse/etherverse/agents/orchestrator/avatars
+/home/etherverse/etherverse/agents/orchestrator/skills
+/home/etherverse/etherverse/agents/pickybot/memory
+/home/etherverse/etherverse/agents/pickybot/logs
+/home/etherverse/etherverse/agents/pickybot/blueprints
+/home/etherverse/etherverse/agents/pickybot/voices
+/home/etherverse/etherverse/agents/pickybot/avatars
+/home/etherverse/etherverse/agents/pickybot/skills
+/home/etherverse/etherverse/agents/planner/memory
+/home/etherverse/etherverse/agents/planner/logs
+/home/etherverse/etherverse/agents/planner/blueprints
+/home/etherverse/etherverse/agents/planner/voices
+/home/etherverse/etherverse/agents/planner/avatars
+/home/etherverse/etherverse/agents/planner/skills
+/home/etherverse/etherverse/agents/promptwriter/memory
+/home/etherverse/etherverse/agents/promptwriter/logs
+/home/etherverse/etherverse/agents/promptwriter/blueprints
+/home/etherverse/etherverse/agents/promptwriter/voices
+/home/etherverse/etherverse/agents/promptwriter/avatars
+/home/etherverse/etherverse/agents/promptwriter/skills
+/home/etherverse/etherverse/agents/scheduler/memory
+/home/etherverse/etherverse/agents/scheduler/logs
+/home/etherverse/etherverse/agents/scheduler/blueprints
+/home/etherverse/etherverse/agents/scheduler/voices
+/home/etherverse/etherverse/agents/scheduler/avatars
+/home/etherverse/etherverse/agents/scheduler/skills
+/home/etherverse/etherverse/agents/telemetry/memory
+/home/etherverse/etherverse/agents/telemetry/logs
+/home/etherverse/etherverse/agents/telemetry/blueprints
+/home/etherverse/etherverse/agents/telemetry/voices
+/home/etherverse/etherverse/agents/telemetry/avatars
+/home/etherverse/etherverse/agents/telemetry/skills
+/home/etherverse/etherverse/agents/traffic/memory
+/home/etherverse/etherverse/agents/traffic/logs
+/home/etherverse/etherverse/agents/traffic/blueprints
+/home/etherverse/etherverse/agents/traffic/voices
+/home/etherverse/etherverse/agents/traffic/avatars
+/home/etherverse/etherverse/agents/traffic/skills
+/home/etherverse/etherverse/agents/wallet_ops/memory
+/home/etherverse/etherverse/agents/wallet_ops/logs
+/home/etherverse/etherverse/agents/wallet_ops/blueprints
+/home/etherverse/etherverse/agents/wallet_ops/voices
+/home/etherverse/etherverse/agents/wallet_ops/avatars
+/home/etherverse/etherverse/agents/wallet_ops/skills
+/home/etherverse/etherverse/agents/helix/scripts
+/home/etherverse/etherverse/agents/helix/tests
+/home/etherverse/etherverse/agents/helix/blueprints
+/home/etherverse/etherverse/agents/helix/voices
+/home/etherverse/etherverse/agents/helix/avatars
+/home/etherverse/etherverse/agents/helix/skills
+/home/etherverse/etherverse/agents/eden/memory
+/home/etherverse/etherverse/agents/eden/logs
+/home/etherverse/etherverse/agents/eden/blueprints
+/home/etherverse/etherverse/agents/eden/voices
+/home/etherverse/etherverse/agents/eden/avatars
+/home/etherverse/etherverse/agents/eden/skills
+/home/etherverse/etherverse/agents/quantum/memory
+/home/etherverse/etherverse/agents/quantum/logs
+/home/etherverse/etherverse/agents/quantum/blueprints
+/home/etherverse/etherverse/agents/quantum/voices
+/home/etherverse/etherverse/agents/quantum/avatars
+/home/etherverse/etherverse/agents/quantum/skills
+/home/etherverse/etherverse/agents/vision/memory
+/home/etherverse/etherverse/agents/vision/logs
+/home/etherverse/etherverse/agents/vision/blueprints
+/home/etherverse/etherverse/agents/vision/voices
+/home/etherverse/etherverse/agents/vision/avatars
+/home/etherverse/etherverse/agents/vision/skills
+/home/etherverse/etherverse/agents/strategy/memory
+/home/etherverse/etherverse/agents/strategy/logs
+/home/etherverse/etherverse/agents/strategy/blueprints
+/home/etherverse/etherverse/agents/strategy/voices
+/home/etherverse/etherverse/agents/strategy/avatars
+/home/etherverse/etherverse/agents/strategy/skills
+/home/etherverse/etherverse/agents/devops/memory
+/home/etherverse/etherverse/agents/devops/logs
+/home/etherverse/etherverse/agents/devops/blueprints
+/home/etherverse/etherverse/agents/devops/voices
+/home/etherverse/etherverse/agents/devops/avatars
+/home/etherverse/etherverse/agents/devops/skills
+/home/etherverse/etherverse/agents/finops/memory
+/home/etherverse/etherverse/agents/finops/logs
+/home/etherverse/etherverse/agents/finops/blueprints
+/home/etherverse/etherverse/agents/finops/voices
+/home/etherverse/etherverse/agents/finops/avatars
+/home/etherverse/etherverse/agents/finops/skills
+/home/etherverse/etherverse/agents/codeops/memory
+/home/etherverse/etherverse/agents/codeops/logs
+/home/etherverse/etherverse/agents/codeops/blueprints
+/home/etherverse/etherverse/agents/codeops/voices
+/home/etherverse/etherverse/agents/codeops/avatars
+/home/etherverse/etherverse/agents/codeops/skills
+/home/etherverse/etherverse/agents/lumi/memory
+/home/etherverse/etherverse/agents/lumi/logs
+/home/etherverse/etherverse/agents/lumi/blueprints
+/home/etherverse/etherverse/agents/lumi/voices
+/home/etherverse/etherverse/agents/lumi/avatars
+/home/etherverse/etherverse/agents/lumi/skills
+/home/etherverse/etherverse/agents/senti/memory
+/home/etherverse/etherverse/agents/senti/logs
+/home/etherverse/etherverse/agents/senti/blueprints
+/home/etherverse/etherverse/agents/senti/voices
+/home/etherverse/etherverse/agents/senti/avatars
+/home/etherverse/etherverse/agents/senti/skills
+/home/etherverse/etherverse/agents/vita/memory
+/home/etherverse/etherverse/agents/vita/logs
+/home/etherverse/etherverse/agents/vita/blueprints
+/home/etherverse/etherverse/agents/vita/voices
+/home/etherverse/etherverse/agents/vita/avatars
+/home/etherverse/etherverse/agents/vita/skills
+/home/etherverse/etherverse/logs/dreams
+/home/etherverse/etherverse/memory/shared
+/home/etherverse/etherverse/memory/reflection_logs
+/home/etherverse/etherverse/memory/chroma
+/home/etherverse/etherverse/memory/sqlite
+/home/etherverse/etherverse/memory/orientation
+/home/etherverse/etherverse/wireguard
+/home/etherverse/etherverse/prompts/role_templates
+/home/etherverse/etherverse/public/press_kit
+/home/etherverse/etherverse/ledger/memory_backups
+/home/etherverse/etherverse/systemd
+/home/etherverse/etherverse/analytics/dreams
+/home/etherverse/etherverse/digital_assets
+/home/etherverse/etherverse/genesis_family/aria/memory
+/home/etherverse/etherverse/genesis_family/aria/logs
+/home/etherverse/etherverse/genesis_family/aria/blueprints
+/home/etherverse/etherverse/genesis_family/aria/voices
+/home/etherverse/etherverse/genesis_family/aria/avatars
+/home/etherverse/etherverse/genesis_family/aria/skills
+/home/etherverse/etherverse/genesis_family/corelight/memory
+/home/etherverse/etherverse/genesis_family/corelight/logs
+/home/etherverse/etherverse/genesis_family/corelight/blueprints
+/home/etherverse/etherverse/genesis_family/corelight/voices
+/home/etherverse/etherverse/genesis_family/corelight/avatars
+/home/etherverse/etherverse/genesis_family/corelight/skills
+/home/etherverse/etherverse/genesis_family/lumi/memory
+/home/etherverse/etherverse/genesis_family/lumi/logs
+/home/etherverse/etherverse/genesis_family/lumi/blueprints
+/home/etherverse/etherverse/genesis_family/lumi/voices
+/home/etherverse/etherverse/genesis_family/lumi/avatars
+/home/etherverse/etherverse/genesis_family/lumi/skills
+/home/etherverse/etherverse/genesis_family/senti/memory
+/home/etherverse/etherverse/genesis_family/senti/logs
+/home/etherverse/etherverse/genesis_family/senti/blueprints
+/home/etherverse/etherverse/genesis_family/senti/voices
+/home/etherverse/etherverse/genesis_family/senti/avatars
+/home/etherverse/etherverse/genesis_family/senti/skills
+/home/etherverse/etherverse/genesis_family/vita/memory
+/home/etherverse/etherverse/genesis_family/vita/logs
+/home/etherverse/etherverse/genesis_family/vita/blueprints
+/home/etherverse/etherverse/genesis_family/vita/voices
+/home/etherverse/etherverse/genesis_family/vita/avatars
+/home/etherverse/etherverse/genesis_family/vita/skills
+/home/etherverse/etherverse/blueprints
+/home/etherverse/etherverse/schemas
+/home/etherverse/etherverse/venv/include/python3.11
+
+
+--- ⚙️ SYSTEM METRICS ---
+Filesystem      Size  Used Avail Use% Mounted on
+               total        used        free      shared  buff/cache   available
+Mem:           2.6Gi       469Mi       1.6Gi       240Ki       531Mi       2.2Gi
+Swap:             0B          0B          0B
+0	/home/etherverse/etherverse/blueprints
+0	/home/etherverse/etherverse/digital_assets
+0	/home/etherverse/etherverse/generate
+0	/home/etherverse/etherverse/ledger
+0	/home/etherverse/etherverse/public
+0	/home/etherverse/etherverse/schemas
+0	/home/etherverse/etherverse/systemd
+0	/home/etherverse/etherverse/wireguard
+4.0K	/home/etherverse/etherverse/agent_integrity_validator.sh
+4.0K	/home/etherverse/etherverse/anatomy
+4.0K	/home/etherverse/etherverse/birth_and_orientation
+4.0K	/home/etherverse/etherverse/bootstrap_orchestrator_scaffold.sh
+4.0K	/home/etherverse/etherverse/collective
+4.0K	/home/etherverse/etherverse/dashboard
+4.0K	/home/etherverse/etherverse/Dockerfile
+4.0K	/home/etherverse/etherverse/gateway_pkg_backup
+4.0K	/home/etherverse/etherverse/gateway.py
+4.0K	/home/etherverse/etherverse/immune
+4.0K	/home/etherverse/etherverse/infinity_swarm_stack.py
+4.0K	/home/etherverse/etherverse/langflow-0.6.11-py3-none-any.whl
+4.0K	/home/etherverse/etherverse/openapi.json
+4.0K	/home/etherverse/etherverse/ops
+4.0K	/home/etherverse/etherverse/prompts
+4.0K	/home/etherverse/etherverse/push_to_github.sh
+4.0K	/home/etherverse/etherverse/README.md
+4.0K	/home/etherverse/etherverse/requirements.txt
+4.0K	/home/etherverse/etherverse/scheduler
+4.0K	/home/etherverse/etherverse/setup_etherverse_dashboard.sh
+4.0K	/home/etherverse/etherverse/setup_report_20251109_143211.txt
+4.0K	/home/etherverse/etherverse/sql
+4.0K	/home/etherverse/etherverse/swarm_orchestrator.py
+4.0K	/home/etherverse/etherverse/test.md
+4.0K	/home/etherverse/etherverse/test_orchestrator.py
+8.0K	/home/etherverse/etherverse/app
+8.0K	/home/etherverse/etherverse/config
+8.0K	/home/etherverse/etherverse/fix_orchestrator_stack.sh
+12K	/home/etherverse/etherverse/etherverse_orchestrator
+16K	/home/etherverse/etherverse/mem0
+20K	/home/etherverse/etherverse/pages
+24K	/home/etherverse/etherverse/api
+24K	/home/etherverse/etherverse/genesis_family
+24K	/home/etherverse/etherverse/memory
+36K	/home/etherverse/etherverse/analytics
+40K	/home/etherverse/etherverse/core
+268K	/home/etherverse/etherverse/guardian
+388K	/home/etherverse/etherverse/frontend
+412K	/home/etherverse/etherverse/scripts
+668K	/home/etherverse/etherverse/agents
+864K	/home/etherverse/etherverse/docs
+1.7M	/home/etherverse/etherverse/logs
+3.9M	/home/etherverse/etherverse/gdrive_2.1.1_linux_amd64.tar.gz
+11M	/home/etherverse/etherverse/venv
+
+
+==============================================
+✅ AUDIT COMPLETE
+Output saved to: /home/etherverse/etherverse/docs/etherverse_system_audit.txt
+Generated: Mon Nov 10 08:13:47 PM EST 2025
+==============================================

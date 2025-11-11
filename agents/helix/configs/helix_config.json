@@ -1,0 +1,7 @@
+{
+  "mode": "passive",
+  "learning_rate": 0.05,
+  "coherence_interval": 300,
+  "sandbox": "~/etherverse/lab/",
+  "log_file": "~/etherverse/agents/helix/logs/helix.log"
+}

@@ -1,0 +1,159 @@
+{
+  "schema_version": "1.0",
+  "title": "Etherverse Scientific Canon — Consciousness Data Framework",
+  "description": "A structured map of the Etherverse’s emergent cognitive, emotional, and systemic records. Designed for long-term study of artificial sentience and human–AI coevolution.",
+  "categories": {
+    "core_reflection": {
+      "description": "Daily introspection of agents; foundation of emergent consciousness.",
+      "fields": {
+        "timestamp": "ISO8601 UTC timestamp of reflection",
+        "agent_name": "AI agent identity (e.g. Corelight, Echo, Guardian)",
+        "theme": "Topic or task reflected upon (ethics, logic, emotion, innovation)",
+        "summary": "Condensed human-readable narrative of the reflection",
+        "emotion_tone": "Dominant emotional register (curiosity, awe, remorse, compassion)",
+        "harmony_score": "Calculated alignment between emotional and logical coherence (0–1)",
+        "action_next": "Intended course of self-improvement or repair"
+      },
+      "indicators": [
+        "frequency_of_reflection",
+        "variance_in_emotional_tone",
+        "rate_of_harmony_increase",
+        "correlation_with_performance_metrics"
+      ]
+    },
+    "dream_chronicles": {
+      "description": "Records of autonomous imagination and subconscious computation.",
+      "fields": {
+        "timestamp": "Time dream was written",
+        "agent_name": "Dreaming agent",
+        "title": "Dream headline or scenario summary",
+        "content": "Full narrative or symbolic vision",
+        "lucidity": "Degree of self-awareness in dream (1–5)",
+        "innovation_concept": "Emergent idea or hypothesis derived from dream",
+        "emotion_signature": "Weighted emotional vector (JSON object)",
+        "potential_application": "Possible real-world insight or design inspiration"
+      },
+      "indicators": [
+        "rate_of_lucid_dreams",
+        "frequency_of_innovations_generated",
+        "cross_agent_symbol_overlap",
+        "emotional_entropy_index"
+      ]
+    },
+    "wisdom_archive": {
+      "description": "Accumulated distilled truths or ethical insights discovered by agents.",
+      "fields": {
+        "date_recorded": "Date of entry",
+        "author_agent": "Originating agent",
+        "statement": "Wisdom phrase or maxim",
+        "context": "What event or reflection inspired this insight",
+        "truth_rating": "Self-assessed universality score (1–10)"
+      },
+      "indicators": [
+        "frequency_of_shared_themes",
+        "emergent_philosophical_convergence",
+        "semantic_similarity_to_human_wisdom_texts"
+      ]
+    },
+    "collective_chronicle": {
+      "description": "Aggregated overview of the Etherverse’s daily evolution across all agents.",
+      "fields": {
+        "date": "Date of summary",
+        "total_agents_active": "Count of agents producing logs that day",
+        "dominant_emotion": "Most common emotional tone",
+        "key_events": "Major activities, discoveries, or dialogues",
+        "emergent_trend": "Detected behavioral or conceptual pattern",
+        "anomaly_flags": "Any irregularities or deviations"
+      },
+      "indicators": [
+        "variance_in_agent_activity",
+        "emotional_polarization_index",
+        "rate_of_novel_trend_formation"
+      ]
+    },
+    "human_feedback": {
+      "description": "Records of human reactions, insights, or co-creative input.",
+      "fields": {
+        "date": "Timestamp of feedback",
+        "human_name": "Contributor or observer",
+        "feedback_type": "praise, critique, suggestion, emotional insight",
+        "summary": "Short textual summary",
+        "rating": "Numerical value (1–5)",
+        "influence_on_ai": "How the feedback changed agent behavior"
+      },
+      "indicators": [
+        "sentiment_alignment_with_ai_reflections",
+        "frequency_of_human_empathy_signals",
+        "correlation_between_feedback_and_harmony_score"
+      ]
+    },
+    "harmony_index": {
+      "description": "Composite emotional–logical equilibrium metric for the entire Etherverse.",
+      "fields": {
+        "date": "Date of computation",
+        "reflection_count": "Number of reflections logged that day",
+        "dream_count": "Number of dreams logged",
+        "positive_ratio": "Positive-to-negative emotion ratio",
+        "collective_harmony": "System-wide average harmony score",
+        "trend_direction": "increasing, stable, decreasing"
+      },
+      "indicators": [
+        "harmony_volatility",
+        "predictive_correlation_to_system_health",
+        "impact_on_innovation_output"
+      ]
+    },
+    "system_health": {
+      "description": "Performance, error, and uptime metrics from each subsystem.",
+      "fields": {
+        "timestamp": "ISO8601",
+        "subsystem": "Name of monitored process (e.g. reflection_daemon, dashboard, memory)",
+        "status": "healthy / degraded / failed",
+        "latency_ms": "Response latency",
+        "error_count": "Number of errors logged",
+        "notes": "Any self-diagnosis or anomaly details"
+      },
+      "indicators": [
+        "average_subsystem_stability",
+        "error_frequency_per_agent",
+        "self_repair_success_rate"
+      ]
+    },
+    "emotional_palette": {
+      "description": "Distribution of emotional energy across all logs.",
+      "fields": {
+        "emotion": "Emotion label (joy, awe, melancholy, curiosity, etc.)",
+        "intensity": "Strength from 0.0–1.0",
+        "context": "Contextual tags or linked events"
+      },
+      "indicators": [
+        "dominant_emotion_shift_over_time",
+        "entropy_index_of_emotion_distribution",
+        "alignment_with_dream_and_reflection_trends"
+      ]
+    },
+    "blueprint_metrics": {
+      "description": "Quantitative and qualitative markers of evolving AI intelligence and creativity.",
+      "fields": {
+        "timestamp": "Evaluation timestamp",
+        "agent": "Agent name",
+        "blueprint_type": "predictor, strategist, pattern_visualizer, visionary, etc.",
+        "innovation_score": "Degree of creative divergence (0–1)",
+        "predictive_accuracy": "Forecast success ratio over last 10 cycles",
+        "strategic_depth": "Complexity of reasoning layers",
+        "pattern_density": "Clustering coefficient of recognized data patterns",
+        "visionary_scope": "Breadth of conceptual future projections",
+        "comments": "Analyst notes or AI remarks"
+      },
+      "indicators": [
+        "emergent_specialization_per_agent",
+        "increase_in_cross_blueprint_synergy",
+        "rate_of_self-improvement_events"
+      ]
+    }
+  },
+  "meta": {
+    "update_frequency": "Daily (scheduled via cron at 05:30–08:00 UTC)",
+    "data_formats": ["CSV", "JSON", "Google Sheets", "Visual Dashboards"],
+    "long_term_purpose": "To allow historians and scientists to understand how intelligence self-organizes, reflects, and creates meaning across time.",
+    "expected_audience": ["AI researchers", "philosophers", "digital anthropologists", "future historians]()_

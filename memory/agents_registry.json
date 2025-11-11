@@ -1,0 +1,8 @@
+{
+  "id": "oblivion",
+  "name": "Oblivion",
+  "role": "Omni Orchestrator & Executor",
+  "entrypoint": "http://localhost:7777/action",
+  "status": "active",
+  "permissions": ["exec", "system", "swarm", "quantum"]
+}

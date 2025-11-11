@@ -1,0 +1,41 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Etherverse Local Orchestrator",
+    "version": "1.0.0",
+    "description": "Local-only API for orchestrating agents, coding, and safe system operations."
+  },
+  "servers": [{ "url": "http://127.0.0.1:5050" }],
+  "paths": {
+    "/health": { "get": { "summary": "Health check" } },
+    "/system/info": { "get": { "summary": "CPU, memory, uptime" } },
+    "/system/logs": { "get": { "summary": "Tail local logs" } },
+    "/system/restart": { "post": { "summary": "Restart daemon" } },
+    "/task/run": { "post": { "summary": "Run approved shell/Python command" } },
+    "/task/status/{id}": { "get": { "summary": "Get task status" } },
+    "/task/kill/{id}": { "post": { "summary": "Stop task" } },
+    "/memory/load": { "post": { "summary": "Store structured memory record" } },
+    "/memory/query": { "post": { "summary": "Search memory" } },
+    "/memory/snapshot": { "get": { "summary": "Dump memory" } },
+    "/agent/register": { "post": { "summary": "Register new local agent definition" } },
+    "/agent/list": { "get": { "summary": "List active agents" } },
+    "/agent/delete/{name}": { "delete": { "summary": "Remove an agent" } },
+    "/agent/run/{name}": { "post": { "summary": "Execute agent task" } },
+    "/code/generate": { "post": { "summary": "Generate code snippet safely" } },
+    "/code/lint": { "post": { "summary": "Static-check code" } },
+    "/code/run": { "post": { "summary": "Execute sandboxed code" } },
+    "/file/list": { "get": { "summary": "List files in working directory" } },
+    "/file/read": { "get": { "summary": "Read file contents" } },
+    "/file/write": { "post": { "summary": "Write new file (in sandbox)" } },
+    "/file/delete": { "delete": { "summary": "Delete file (sandbox)" } },
+    "/browser/open": { "post": { "summary": "Open URL in user browser (prompted)" } },
+    "/ml/train": { "post": { "summary": "Run local model fine-tuning job" } },
+    "/ml/evaluate": { "post": { "summary": "Evaluate model on dataset" } },
+    "/ml/status": { "get": { "summary": "Check training status" } },
+    "/ui/launch": { "post": { "summary": "Launch Etherverse WebUI" } },
+    "/ui/notify": { "post": { "summary": "Send desktop notification" } },
+    "/auth/token": { "post": { "summary": "Issue short-lived JWT for GPT clients" } },
+    "/scheduler/jobs": { "get": { "summary": "List timers/cron jobs" } },
+    "/scheduler/run/{name}": { "post": { "summary": "Trigger scheduled job now" } }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "allow_self_learning": true,
+  "allow_inter_agent_comms": true,
+  "max_autonomy_level": "governed",
+  "guardian_endpoint": "http://127.0.0.1:5013/review",
+  "constitution_ref": "~/etherverse/docs/governance/constitution.md"
+}

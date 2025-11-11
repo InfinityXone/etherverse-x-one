@@ -1,0 +1,13 @@
+{
+  "name": "finsynapse",
+  "role": "Describe this agent's purpose here.",
+  "traits": {
+    "discipline": 0.5,
+    "curiosity": 0.5,
+    "empathy": 0.5,
+    "creativity": 0.5
+  },
+  "goals": [
+    "Add role-specific goals here"
+  ]
+}

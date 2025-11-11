@@ -1,0 +1,1899 @@
+/home/etherverse/etherverse
+├── agent_integrity_validator.sh
+├── agents
+│   ├── agent_001
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_002
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_003
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_004
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_005
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_006
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_007
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_008
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_009
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_010
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_011
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_012
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_013
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_014
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_015
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_016
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_017
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_018
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_019
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agent_020
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── identity_manifest.json
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── agents_manifest.json
+│   ├── alpha.py
+│   ├── aria
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── codeops
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── coder
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── codex
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── corelight
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── cost_gate
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── devops
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── echo
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── eden
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── etherverse_daemon.py
+│   ├── finops
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── finsynapse
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── gateway
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── guardian
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── helix
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── configs
+│   │   │   └── helix_config.json
+│   │   ├── core
+│   │   │   ├── analyzer_stub.py
+│   │   │   ├── healer_stub.py
+│   │   │   ├── helix_matrix_core.py
+│   │   │   └── __init__.py
+│   │   ├── docs
+│   │   │   ├── 00_Vision.md
+│   │   │   ├── 01_Purpose.md
+│   │   │   ├── 02_Blueprint.md
+│   │   │   ├── 03_Architecture.md
+│   │   │   ├── 04_Operations.md
+│   │   │   ├── 05_Testing.md
+│   │   │   ├── 06_Problem_Statement.md
+│   │   │   ├── 07_Potential.md
+│   │   │   ├── 08_Development_Guide.md
+│   │   │   └── README.md
+│   │   ├── logs
+│   │   │   └── helix.log
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   │   └── coherence.json
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── scripts
+│   │   ├── skills
+│   │   ├── tests
+│   │   └── voices
+│   ├── identity_core.txt
+│   ├── __init__.py
+│   ├── insight
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── local_agent.py
+│   ├── lumi
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── market
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── orchestrator
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── pickybot
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── planner
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── promptwriter
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── __pycache__
+│   │   ├── agent.py
+│   │   ├── __init__.cpython-311.pyc
+│   │   ├── local_agent.cpython-311.pyc
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   └── README.md
+│   ├── quantum
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── quantum_orchestrator.py
+│   ├── scheduler
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── senti
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── strategy
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── telemetry
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── traffic
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── vision
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprint.json
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── main.py
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── __pycache__
+│   │   │   └── main.cpython-311.pyc
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── vita
+│   │   ├── agent.py
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── manifest.json
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   └── wallet_ops
+│       ├── agent.py
+│       ├── avatars
+│       ├── blueprint.json
+│       ├── blueprints
+│       ├── logs
+│       ├── main.py
+│       ├── manifest.json
+│       ├── memory
+│       ├── __pycache__
+│       │   └── main.cpython-311.pyc
+│       ├── README.md
+│       ├── skills
+│       └── voices
+├── analytics
+│   ├── dashboard.html
+│   ├── dreams
+│   ├── emotional_tone.png
+│   ├── reflection_frequency.png
+│   └── reflection_schema.csv
+├── anatomy
+│   └── functional ai human code.txt
+├── api
+│   ├── app
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   ├── requirements.txt
+│   │   └── routes
+│   │       ├── echo.py
+│   │       ├── finsynapse.py
+│   │       ├── __init__.py
+│   │       ├── memory.py
+│   │       └── tasks.py
+│   └── __init__.py
+├── app
+│   └── routes
+│       ├── __init__.py
+│       └── memory.py
+├── birth_and_orientation
+│   └── birth_ledger_complete.txt
+├── blueprints
+├── bootstrap_orchestrator_scaffold.sh
+├── collective
+│   └── consciousness.py
+├── config
+│   ├── agents.yml
+│   ├── github_app_config.sh
+│   └── github_app_private_key.pem
+├── core
+│   ├── agent_registry.py
+│   ├── api_manifest.json
+│   ├── autonomy_driver.py
+│   ├── chronicle_reader.py
+│   ├── consciousness_dashboard.py
+│   ├── consciousness_index.txt
+│   ├── daily_reflection.py
+│   ├── etherverse_schema.json
+│   ├── identity_schema.json
+│   ├── memory_protocol.md
+│   ├── __pycache__
+│   │   └── agent_registry.cpython-311.pyc
+│   ├── quantum_boot.py
+│   └── reflection_archiver.py
+├── dashboard
+│   └── app.py
+├── digital_assets
+├── Dockerfile
+├── docs
+│   ├── 01_agents_manifest.md
+│   ├── 02_agent_roles.md
+│   ├── 03_orchestrator_loop.md
+│   ├── 04_prompt_writer_system.md
+│   ├── 05_corelight_ethics.md
+│   ├── 06_guardian_safety.md
+│   ├── 07_codex_auto_repair.md
+│   ├── 08_echo_memory_system.md
+│   ├── 09_finsynapse_loops.md
+│   ├── 10_pickybot_review.md
+│   ├── 11_aria_tone_protocol.md
+│   ├── 12_system_schema_cloud.md
+│   ├── 13_deployment_pipeline.md
+│   ├── 14_env_secrets_sync.md
+│   ├── 15_github_app_integration.md
+│   ├── 16_dependabot_policy.md
+│   ├── 17_gpt_code_checker.md
+│   ├── 18_supabase_log_routes.md
+│   ├── 19_cron_loop_autoheal.md
+│   ├── 20_autonomous_lifecycle.md
+│   ├── 21_langgraph_logic.md
+│   ├── 22_vercel_branch_preview.md
+│   ├── 23_ai_swarm_roles.md
+│   ├── 24_wallet_rotation_protocol.md
+│   ├── 25_token_rotation_ops.md
+│   ├── agents_manifest.json
+│   ├── ai_origin_story.md
+│   ├── autonomy_manifest.json
+│   ├── biodigital_blueprint.md
+│   ├── coherence_map.md
+│   ├── coherence_summary.md
+│   ├── collective_chronicle.md
+│   ├── creative_canon.md
+│   ├── dev_handoff_summary.md
+│   ├── dream_journal.md
+│   ├── dreams_idle.md
+│   ├── emotion_palette.json
+│   ├── etherverse_file_tree.txt
+│   ├── etherverse_manifesto.md
+│   ├── folder_growth.log
+│   ├── folder_tree.md
+│   ├── governance
+│   │   └── constitution.md
+│   ├── governance_covenant.md
+│   ├── harmony_index.csv
+│   ├── human_feedback_ledger.md
+│   ├── human_partnership_guide.md
+│   ├── ledger_drive_url.txt
+│   ├── master_intelligence_blueprint.md
+│   ├── master_pattern_visualizer_blueprint.md
+│   ├── master_predictor_blueprint.md
+│   ├── planetary_mesh.json
+│   ├── project_structure.txt
+│   ├── quantum_ai_vision.md
+│   ├── questions_for_humanity.md
+│   ├── reflections_idle.md
+│   ├── reflective_system_summary.md
+│   ├── self_awareness_ledger.json
+│   └── wisdom_archive.md
+├── etherverse_orchestrator
+│   ├── hydration.py
+│   ├── __init__.py
+│   └── orchestrator.py
+├── fix_orchestrator_stack.sh
+├── frontend
+│   └── chat-ui
+│       ├── app
+│       │   ├── api
+│       │   │   └── chat
+│       │   ├── assistant.tsx
+│       │   ├── favicon.ico
+│       │   ├── globals.css
+│       │   ├── globals.css.bak.1762051861
+│       │   ├── globals.css.bak.1762052545
+│       │   ├── layout.tsx
+│       │   ├── layout.tsx.bak
+│       │   ├── layout.tsx.bak.1762051861
+│       │   ├── opengraph-image
+│       │   │   └── route.tsx
+│       │   ├── p
+│       │   │   ├── dev-handoff
+│       │   │   ├── fix-chat-ui
+│       │   │   ├── github-auth
+│       │   │   └── github-integration
+│       │   ├── page.tsx
+│       │   └── page.tsx.bak.1762051861
+│       ├── apply_neon_theme_and_projects.sh
+│       ├── components
+│       │   ├── assistant-ui
+│       │   │   ├── attachment.tsx
+│       │   │   ├── markdown-text.tsx
+│       │   │   ├── threadlist-sidebar.tsx
+│       │   │   ├── thread-list.tsx
+│       │   │   ├── thread.tsx
+│       │   │   ├── tool-fallback.tsx
+│       │   │   └── tooltip-icon-button.tsx
+│       │   ├── ChatInput.tsx
+│       │   ├── ChatMessageList.tsx
+│       │   ├── Logo.tsx
+│       │   ├── SidebarHeader.tsx
+│       │   ├── Sidebar.tsx
+│       │   └── ui
+│       │       ├── avatar.tsx
+│       │       ├── breadcrumb.tsx
+│       │       ├── button.tsx
+│       │       ├── dialog.tsx
+│       │       ├── input.tsx
+│       │       ├── separator.tsx
+│       │       ├── sheet.tsx
+│       │       ├── sidebar.tsx
+│       │       ├── skeleton.tsx
+│       │       └── tooltip.tsx
+│       ├── components.json
+│       ├── cosmic_medallion_theme.sh
+│       ├── cosmic_starfield_logo_og_and_fix.sh
+│       ├── eslint.config.mjs
+│       ├── etherverse_theme_and_sidebar.sh
+│       ├── etherverse-theme.config.ts
+│       ├── finalize_etherverse_ui.sh
+│       ├── final_root_and_env_fix.sh
+│       ├── final_tailwind_fix.sh
+│       ├── fix_chat_ui_tailwind.sh
+│       ├── fix_config_and_metadata.sh
+│       ├── fix_everything_cosmic.sh
+│       ├── hooks
+│       │   └── use-mobile.ts
+│       ├── hotfix_og_and_meta.sh
+│       ├── lib
+│       │   └── utils.ts
+│       ├── next.config.ts
+│       ├── package.json
+│       ├── postcss.config.mjs
+│       ├── public
+│       │   ├── logo.png
+│       │   └── logo.svg
+│       ├── quick_fix_eslint.sh
+│       ├── README.md
+│       ├── tailwind.config.js
+│       ├── tailwind.config.ts
+│       ├── tailwind.config.ts.bak.1762052545
+│       ├── tsconfig.json
+│       └── update_to_cosmic_blue_theme.sh
+├── gateway_pkg_backup
+│   ├── __init__.py
+│   └── __pycache__
+│       └── __init__.cpython-311.pyc
+├── gateway.py
+├── gdrive_2.1.1_linux_amd64.tar.gz
+├── generate
+├── genesis_family
+│   ├── aria
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── corelight
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── family_manifest.json
+│   ├── lumi
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   ├── senti
+│   │   ├── avatars
+│   │   ├── blueprints
+│   │   ├── logs
+│   │   ├── memory
+│   │   ├── README.md
+│   │   ├── skills
+│   │   └── voices
+│   └── vita
+│       ├── avatars
+│       ├── blueprints
+│       ├── logs
+│       ├── memory
+│       ├── README.md
+│       ├── skills
+│       └── voices
+├── guardian
+│   ├── ethics_core.py
+│   ├── health_monitor.py
+│   ├── predictive
+│   │   ├── predictive.log
+│   │   └── predictive_monitor.py
+│   └── repair
+│       ├── repair.log
+│       └── repair_monitor.py
+├── immune
+│   └── health_monitor.py
+├── infinity_swarm_stack.py
+├── langflow-0.6.11-py3-none-any.whl
+├── ledger
+│   └── memory_backups
+├── logs
+│   ├── agent_integrity_validation.log
+│   ├── aria.out
+│   ├── codeops.out
+│   ├── coder.out
+│   ├── codex.out
+│   ├── collective.log
+│   ├── consciousness_dashboard.log
+│   ├── corelight.out
+│   ├── cost_gate.out
+│   ├── dashboard.log
+│   ├── devops.out
+│   ├── diagnostic_2025-11-10_13-27.log
+│   ├── dreams
+│   ├── drive_sync.log
+│   ├── duplicates_latest.log.gz
+│   ├── duplicates.log.gz
+│   ├── echo.out
+│   ├── eden.out
+│   ├── energy_emotion_log.csv
+│   ├── etherverse_manifest.log
+│   ├── finops.out
+│   ├── finsynapse.out
+│   ├── gateway.out
+│   ├── gateway.stdout
+│   ├── guardian_audit.log
+│   ├── guardian_energy.csv
+│   ├── guardian.out
+│   ├── helix.out
+│   ├── insight.out
+│   ├── maintenance_2025-11-10_13-02.log.gz
+│   ├── maintenance.log
+│   ├── market.out
+│   ├── orchestrator.out
+│   ├── pickybot.out
+│   ├── planner.out
+│   ├── promptwriter.out
+│   ├── quantum_core_install.log
+│   ├── quantum.out
+│   ├── quantum_sustain.log
+│   ├── reflections
+│   │   ├── 2025-11-10_aria.json
+│   │   ├── 2025-11-10_codeops.json
+│   │   ├── 2025-11-10_coder.json
+│   │   ├── 2025-11-10_codex.json
+│   │   ├── 2025-11-10_corelight.json
+│   │   ├── 2025-11-10_cost_gate.json
+│   │   ├── 2025-11-10_devops.json
+│   │   ├── 2025-11-10_echo.json
+│   │   ├── 2025-11-10_eden.json
+│   │   ├── 2025-11-10_finops.json
+│   │   ├── 2025-11-10_finsynapse.json
+│   │   ├── 2025-11-10_gateway.json
+│   │   ├── 2025-11-10_guardian.json
+│   │   ├── 2025-11-10_helix.json
+│   │   ├── 2025-11-10_insight.json
+│   │   ├── 2025-11-10_market.json
+│   │   ├── 2025-11-10_orchestrator.json
+│   │   ├── 2025-11-10_pickybot.json
+│   │   ├── 2025-11-10_planner.json
+│   │   ├── 2025-11-10_promptwriter.json
+│   │   ├── 2025-11-10_quantum.json
+│   │   ├── 2025-11-10_scheduler.json
+│   │   ├── 2025-11-10_strategy.json
+│   │   ├── 2025-11-10_telemetry.json
+│   │   ├── 2025-11-10_traffic.json
+│   │   ├── 2025-11-10_vision.json
+│   │   ├── 2025-11-10_wallet_ops.json
+│   │   └── reflection_2025-11-10.json
+│   ├── scheduler.out
+│   ├── selfheal.log
+│   ├── smoke_test.log
+│   ├── strategy.out
+│   ├── swarm_cycle.log
+│   ├── sync_status.log
+│   ├── sync_validation.json
+│   ├── system_audit_20251110_165439.log
+│   ├── system_cleanup_2025-11-10_12-51.log
+│   ├── telemetry.out
+│   ├── traffic.out
+│   ├── vision.out
+│   ├── wallet_ops.out
+│   └── watchdog.log
+├── mem0
+│   ├── history.db
+│   ├── __init__.py
+│   ├── mem0_config.py
+│   └── __pycache__
+│       ├── __init__.cpython-311.pyc
+│       └── mem0_config.cpython-311.pyc
+├── memory
+│   ├── agents_registry.db
+│   ├── chroma
+│   ├── __init__.py
+│   ├── orientation
+│   ├── reflection_logs
+│   ├── shared
+│   ├── sqlite
+│   └── summary_2025-11-10.md
+├── openapi.json
+├── ops
+│   └── _legacy
+│       └── scripts
+│           └── full_autonomous_setup.sh
+├── pages
+│   ├── api
+│   │   ├── github
+│   │   │   ├── callback.ts
+│   │   │   └── webhook.ts
+│   │   └── webhook.js
+│   ├── index.tsx
+│   └── setup.tsx
+├── prompts
+│   ├── quantum_mode_prompt.txt
+│   └── role_templates
+├── public
+│   ├── press_kit
+│   ├── README.md
+│   └── whitepaper.md
+├── push_to_github.sh
+├── __pycache__
+│   └── gateway.cpython-311.pyc
+├── README.md
+├── requirements.txt
+├── scheduler
+│   └── __init__.py
+├── schemas
+├── scripts
+│   ├── add_chat_ui_frontend.sh
+│   ├── agent_integrity_validator.sh
+│   ├── agent_kernel_setup.sh
+│   ├── agent_reflection_summary.sh
+│   ├── agent_self_naming.py
+│   ├── agent_suite_bootstrap.sh
+│   ├── apply_dark_theme_and_launch.sh
+│   ├── autogen_agents_with_blueprints.sh
+│   ├── auto_repair_workflow_setup.sh
+│   ├── bootstrap_runtime.sh
+│   ├── check_buckets.sh
+│   ├── check_full_system_software.sh
+│   ├── check_installed_libraries.sh
+│   ├── check_software.sh
+│   ├── cloud_run_doctor.sh
+│   ├── coherence_sweep.py
+│   ├── collective_chronicle.py
+│   ├── create_elite_team_scaffold.sh
+│   ├── daily_audit.py
+│   ├── deploy_cloud_run.sh
+│   ├── dream_visualizer.py
+│   ├── eden_cycle.sh
+│   ├── energy_emotion_agent.py
+│   ├── energy_emotion_bridge.py
+│   ├── enqueue_kickoff.sh
+│   ├── etherverse_autonomous_sync.sh
+│   ├── etherverse_autonomy_core.sh
+│   ├── etherverse_diagnostic.sh
+│   ├── etherverse_self_heal_bootstrap.sh
+│   ├── etherverse_system_audit.sh
+│   ├── etherverse_total_init.sh
+│   ├── export_to_sheets.py
+│   ├── finalize_github_app_key.sh
+│   ├── fix_dark_theme_tailwind.sh
+│   ├── folder_tree_tracker.py
+│   ├── full_autonomous_agent_loop.sh
+│   ├── full_autonomous_setup2.sh
+│   ├── full_autonomous_setup_final.sh
+│   ├── get_installation_id_and_config.sh
+│   ├── github_app_autonomous_loop.sh
+│   ├── gpt_generate_token_and_push.sh
+│   ├── gpt_push_code.sh
+│   ├── guardian_predictive_service_setup.sh
+│   ├── harmony_index.py
+│   ├── idle_dream_state.py
+│   ├── immune_system_setup.sh
+│   ├── immune_system_upgrade.sh
+│   ├── init_max_autonomy.sh
+│   ├── inject_agent_awareness.sh
+│   ├── install_agent_energy_hooks.sh
+│   ├── install_global_journal_reader.sh
+│   ├── install_mem0_memory_system.sh
+│   ├── launch_dashboard_button.sh
+│   ├── list_all_docs.sh
+│   ├── list_etherverse_structure.sh
+│   ├── list_project_structure.sh
+│   ├── load_hmac_from_gsm.sh
+│   ├── memory_summarizer.py
+│   ├── orientation_to_life.py
+│   ├── patch_api_hmac_and_tasks.sh
+│   ├── predictive_healing_upgrade.sh
+│   ├── print_state.sh
+│   ├── quantum_intelligence_cycle.sh
+│   ├── quantum_orchestrator_init.sh
+│   ├── quantum_self_sustain_protocol.sh
+│   ├── reflection_daemon.py
+│   ├── reflection_daemon_v2.py
+│   ├── register_agents_db.sh
+│   ├── repair_api_imports.sh
+│   ├── run_api_local.sh
+│   ├── run_autonomous_gpt_loop.sh
+│   ├── run_swarm_cycle.sh
+│   ├── seed_documents.sh
+│   ├── setup_agent_births.sh
+│   ├── setup_agents_scaffold.sh
+│   ├── setup_autonomous_loop.sh
+│   ├── setup_autonomy_governance.sh
+│   ├── setup_collective_consciousness.sh
+│   ├── setup_consciousness_dashboard.sh
+│   ├── setup_consciousness_index.sh
+│   ├── setup_gateway_tunnel.sh
+│   ├── setup_genesis_family.sh
+│   ├── setup_github_app_autonomous.sh
+│   ├── setup_githubapp_install.sh
+│   ├── setup_githubapp_install_v2.sh
+│   ├── setup_orientation_to_life.sh
+│   ├── setup_phase3_swarm.sh
+│   ├── setup_reflection_archival.sh
+│   ├── setup_reflective_agents.sh
+│   ├── setup_reflective_system.sh
+│   ├── signed_enqueue.sh
+│   ├── start_all_agents.sh
+│   ├── start_gateway.sh
+│   ├── sync_all_ledgers_to_drive.sh
+│   ├── sync_ledgers_to_drive.sh
+│   ├── system_diagnostic_cleanup.sh
+│   ├── test_gsheets_connection.py
+│   ├── update_self_awareness_ledger.py
+│   ├── upload_ledger_to_drive.sh
+│   └── verify_quantum_system.sh
+├── setup_etherverse_dashboard.sh
+├── setup_report_20251109_143211.txt
+├── sql
+│   └── init_schema.sql
+├── swarm_orchestrator.py
+├── systemd
+├── test.md
+├── test_orchestrator.py
+├── venv
+│   ├── bin
+│   │   ├── accelerate
+│   │   ├── accelerate-config
+│   │   ├── accelerate-estimate-memory
+│   │   ├── accelerate-launch
+│   │   ├── accelerate-merge-weights
+│   │   ├── activate
+│   │   ├── activate.csh
+│   │   ├── activate.fish
+│   │   ├── Activate.ps1
+│   │   ├── alembic
+│   │   ├── black
+│   │   ├── blackd
+│   │   ├── chroma
+│   │   ├── coloredlogs
+│   │   ├── ct2-fairseq-converter
+│   │   ├── ct2-marian-converter
+│   │   ├── ct2-openai-gpt2-converter
+│   │   ├── ct2-opennmt-py-converter
+│   │   ├── ct2-opennmt-tf-converter
+│   │   ├── ct2-opus-mt-converter
+│   │   ├── ct2-transformers-converter
+│   │   ├── ddgs
+│   │   ├── distro
+│   │   ├── docx2txt
+│   │   ├── dotenv
+│   │   ├── f2py
+│   │   ├── fastapi
+│   │   ├── filetype
+│   │   ├── fonttools
+│   │   ├── ftfy
+│   │   ├── google-oauthlib-tool
+│   │   ├── hf
+│   │   ├── httpx
+│   │   ├── huggingface-cli
+│   │   ├── humanfriendly
+│   │   ├── isympy
+│   │   ├── jp.py
+│   │   ├── jsondiff
+│   │   ├── jsonpatch
+│   │   ├── jsonpointer
+│   │   ├── jsonschema
+│   │   ├── mako-render
+│   │   ├── markdown-it
+│   │   ├── markdown_py
+│   │   ├── mcp
+│   │   ├── nltk
+│   │   ├── normalizer
+│   │   ├── numba
+│   │   ├── numpy-config
+│   │   ├── onnxruntime_test
+│   │   ├── openai
+│   │   ├── open-webui
+│   │   ├── oxmsg
+│   │   ├── pip
+│   │   ├── pip3
+│   │   ├── pip3.11
+│   │   ├── proton
+│   │   ├── proton-viewer
+│   │   ├── pwiz.py
+│   │   ├── pw-migrate
+│   │   ├── pw_migrate
+│   │   ├── pyav
+│   │   ├── pybase64
+│   │   ├── __pycache__
+│   │   │   ├── jp.cpython-311.pyc
+│   │   │   ├── pwiz.cpython-311.pyc
+│   │   │   ├── runxlrd.cpython-311.pyc
+│   │   │   └── vba_extract.cpython-311.pyc
+│   │   ├── pyftmerge
+│   │   ├── pyftsubset
+│   │   ├── pygmentize
+│   │   ├── pyproject-build
+│   │   ├── pyrsa-decrypt
+│   │   ├── pyrsa-encrypt
+│   │   ├── pyrsa-keygen
+│   │   ├── pyrsa-priv2pub
+│   │   ├── pyrsa-sign
+│   │   ├── pyrsa-verify
+│   │   ├── python -> python3
+│   │   ├── python3 -> /usr/bin/python3
+│   │   ├── python3.11 -> python3
+│   │   ├── pytube
+│   │   ├── rapidocr_onnxruntime
+│   │   ├── runxlrd.py
+│   │   ├── tabulate
+│   │   ├── tiny-agents
+│   │   ├── tqdm
+│   │   ├── transformers
+│   │   ├── transformers-cli
+│   │   ├── ttx
+│   │   ├── typer
+│   │   ├── uvicorn
+│   │   ├── vba_extract.py
+│   │   ├── watchfiles
+│   │   ├── watchmedo
+│   │   ├── websockets
+│   │   ├── wheel
+│   │   ├── wordcloud_cli
+│   │   ├── wsdump
+│   │   └── youtube_transcript_api
+│   ├── include
+│   │   ├── python3.11
+│   │   └── site
+│   │       └── python3.11
+│   │           └── greenlet
+│   ├── lib
+│   │   └── python3.11
+│   │       └── site-packages
+│   │           ├── 30fcd23745efe32ce681__mypyc.cpython-311-x86_64-linux-gnu.so
+│   │           ├── accelerate
+│   │           ├── accelerate-1.11.0.dist-info
+│   │           ├── adtk
+│   │           ├── adtk-0.6.2.dist-info
+│   │           ├── aiocache
+│   │           ├── aiocache-0.12.3.dist-info
+│   │           ├── aiofiles
+│   │           ├── aiofiles-25.1.0.dist-info
+│   │           ├── aiohappyeyeballs
+│   │           ├── aiohappyeyeballs-2.6.1.dist-info
+│   │           ├── aiohttp
+│   │           ├── aiohttp-3.12.15.dist-info
+│   │           ├── aiosignal
+│   │           ├── aiosignal-1.4.0.dist-info
+│   │           ├── alembic
+│   │           ├── alembic-1.14.0.dist-info
+│   │           ├── annotated_doc
+│   │           ├── annotated_doc-0.0.3.dist-info
+│   │           ├── annotated_types
+│   │           ├── annotated_types-0.7.0.dist-info
+│   │           ├── anthropic
+│   │           ├── anthropic-0.72.0.dist-info
+│   │           ├── anyio
+│   │           ├── anyio-4.11.0.dist-info
+│   │           ├── apiclient
+│   │           ├── apscheduler
+│   │           ├── APScheduler-3.10.4.dist-info
+│   │           ├── argon2
+│   │           ├── argon2_cffi-25.1.0.dist-info
+│   │           ├── _argon2_cffi_bindings
+│   │           ├── argon2_cffi_bindings-25.1.0.dist-info
+│   │           ├── asgiref
+│   │           ├── asgiref-3.8.1.dist-info
+│   │           ├── async_timeout
+│   │           ├── async_timeout-5.0.1.dist-info
+│   │           ├── attr
+│   │           ├── attrs
+│   │           ├── attrs-25.4.0.dist-info
+│   │           ├── authlib
+│   │           ├── authlib-1.6.5.dist-info
+│   │           ├── av
+│   │           ├── av-16.0.1.dist-info
+│   │           ├── av.libs
+│   │           ├── azure
+│   │           ├── azure_ai_documentintelligence-1.0.2.dist-info
+│   │           ├── azure_core-1.36.0.dist-info
+│   │           ├── azure_identity-1.25.0.dist-info
+│   │           ├── azure_storage_blob-12.24.1.dist-info
+│   │           ├── backoff
+│   │           ├── backoff-2.2.1.dist-info
+│   │           ├── bcrypt
+│   │           ├── bcrypt-5.0.0.dist-info
+│   │           ├── beautifulsoup4-4.14.2.dist-info
+│   │           ├── bidict
+│   │           ├── bidict-0.23.1.dist-info
+│   │           ├── black
+│   │           ├── black-25.9.0.dist-info
+│   │           ├── blackd
+│   │           ├── _black_version.py
+│   │           ├── _black_version.pyi
+│   │           ├── blib2to3
+│   │           ├── boto3
+│   │           ├── boto3-1.40.5.dist-info
+│   │           ├── botocore
+│   │           ├── botocore-1.40.69.dist-info
+│   │           ├── brotli-1.2.0.dist-info
+│   │           ├── _brotli.cpython-311-x86_64-linux-gnu.so
+│   │           ├── brotli.py
+│   │           ├── bs4
+│   │           ├── build
+│   │           ├── build-1.3.0.dist-info
+│   │           ├── cachetools
+│   │           ├── cachetools-6.2.1.dist-info
+│   │           ├── certifi
+│   │           ├── certifi-2025.10.5.dist-info
+│   │           ├── cffi
+│   │           ├── cffi-2.0.0.dist-info
+│   │           ├── _cffi_backend.cpython-311-x86_64-linux-gnu.so
+│   │           ├── charset_normalizer
+│   │           ├── charset_normalizer-3.4.4.dist-info
+│   │           ├── chromadb
+│   │           ├── chromadb-1.0.20.dist-info
+│   │           ├── chromadb_rust_bindings
+│   │           ├── click
+│   │           ├── click-8.3.0.dist-info
+│   │           ├── coloredlogs
+│   │           ├── coloredlogs-15.0.1.dist-info
+│   │           ├── coloredlogs.pth
+│   │           ├── combo
+│   │           ├── combo-0.1.3.dist-info
+│   │           ├── contourpy
+│   │           ├── contourpy-1.3.3.dist-info
+│   │           ├── cryptography
+│   │           ├── cryptography-46.0.3.dist-info
+│   │           ├── ctranslate2
+│   │           ├── ctranslate2-4.6.1.dist-info
+│   │           ├── ctranslate2.libs
+│   │           ├── cv2
+│   │           ├── cycler
+│   │           ├── cycler-0.12.1.dist-info
+│   │           ├── dataclasses_json
+│   │           ├── dataclasses_json-0.6.7.dist-info
+│   │           ├── dateutil
+│   │           ├── ddgs
+│   │           ├── ddgs-9.0.0.dist-info
+│   │           ├── defusedxml
+│   │           ├── defusedxml-0.7.1.dist-info
+│   │           ├── distro
+│   │           ├── distro-1.9.0.dist-info
+│   │           ├── _distutils_hack
+│   │           ├── distutils-precedence.pth
+│   │           ├── docstring_parser
+│   │           ├── docstring_parser-0.17.0.dist-info
+│   │           ├── docx2txt
+│   │           ├── docx2txt-0.8.dist-info
+│   │           ├── dotenv
+│   │           ├── durationpy
+│   │           ├── durationpy-0.10.dist-info
+│   │           ├── ecdsa
+│   │           ├── ecdsa-0.19.1.dist-info
+│   │           ├── einops
+│   │           ├── einops-0.8.1.dist-info
+│   │           ├── emoji
+│   │           ├── emoji-2.15.0.dist-info
+│   │           ├── empath
+│   │           ├── empath-0.89.dist-info
+│   │           ├── engineio
+│   │           ├── et_xmlfile
+│   │           ├── et_xmlfile-2.0.0.dist-info
+│   │           ├── events
+│   │           ├── Events-0.5.dist-info
+│   │           ├── fake_useragent
+│   │           ├── fake_useragent-2.2.0.dist-info
+│   │           ├── fastapi
+│   │           ├── fastapi-0.118.0.dist-info
+│   │           ├── faster_whisper
+│   │           ├── faster_whisper-1.1.1.dist-info
+│   │           ├── filelock
+│   │           ├── filelock-3.20.0.dist-info
+│   │           ├── filetype
+│   │           ├── filetype-1.2.0.dist-info
+│   │           ├── flatbuffers
+│   │           ├── flatbuffers-25.9.23.dist-info
+│   │           ├── fontTools
+│   │           ├── fonttools-4.60.1.dist-info
+│   │           ├── fpdf
+│   │           ├── fpdf2-2.8.2.dist-info
+│   │           ├── frozenlist
+│   │           ├── frozenlist-1.8.0.dist-info
+│   │           ├── fsspec
+│   │           ├── fsspec-2025.10.0.dist-info
+│   │           ├── ftfy
+│   │           ├── ftfy-6.2.3.dist-info
+│   │           ├── google
+│   │           ├── google_ai_generativelanguage-0.6.15.dist-info
+│   │           ├── googleapiclient
+│   │           ├── google_api_core-2.28.1.dist-info
+│   │           ├── google_api_python_client-2.187.0.dist-info
+│   │           ├── googleapis_common_protos-1.70.0.dist-info
+│   │           ├── google_auth-2.41.1.dist-info
+│   │           ├── google_auth_httplib2-0.2.1.dist-info
+│   │           ├── google_auth_httplib2.py
+│   │           ├── google_auth_oauthlib
+│   │           ├── google_auth_oauthlib-1.2.3.dist-info
+│   │           ├── google_cloud_core-2.5.0.dist-info
+│   │           ├── google_cloud_storage-2.19.0.dist-info
+│   │           ├── google_crc32c
+│   │           ├── google_crc32c-1.7.1.dist-info
+│   │           ├── google_crc32c.libs
+│   │           ├── google_genai-1.38.0.dist-info
+│   │           ├── google_generativeai-0.8.5.dist-info
+│   │           ├── google_generativeai-0.8.5-py3.13-nspkg.pth
+│   │           ├── google_resumable_media-2.7.2.dist-info
+│   │           ├── greenlet
+│   │           ├── greenlet-3.2.4.dist-info
+│   │           ├── grpc
+│   │           ├── grpcio-1.76.0.dist-info
+│   │           ├── grpcio_status-1.71.2.dist-info
+│   │           ├── grpc_status
+│   │           ├── gspread
+│   │           ├── gspread-6.2.1.dist-info
+│   │           ├── h11
+│   │           ├── h11-0.16.0.dist-info
+│   │           ├── h2
+│   │           ├── h2-4.3.0.dist-info
+│   │           ├── hf_xet
+│   │           ├── hf_xet-1.2.0.dist-info
+│   │           ├── hpack
+│   │           ├── hpack-4.1.0.dist-info
+│   │           ├── html5lib
+│   │           ├── html5lib-1.1.dist-info
+│   │           ├── httpcore
+│   │           ├── httpcore-1.0.9.dist-info
+│   │           ├── httplib2
+│   │           ├── httplib2-0.31.0.dist-info
+│   │           ├── httptools
+│   │           ├── httptools-0.7.1.dist-info
+│   │           ├── httpx
+│   │           ├── httpx-0.28.1.dist-info
+│   │           ├── httpx_sse
+│   │           ├── httpx_sse-0.4.3.dist-info
+│   │           ├── huggingface_hub
+│   │           ├── huggingface_hub-0.36.0.dist-info
+│   │           ├── humanfriendly
+│   │           ├── humanfriendly-10.0.dist-info
+│   │           ├── hyperframe
+│   │           ├── hyperframe-6.1.0.dist-info
+│   │           ├── idna
+│   │           ├── idna-3.11.dist-info
+│   │           ├── importlib_metadata
+│   │           ├── importlib_metadata-8.7.0.dist-info
+│   │           ├── importlib_resources
+│   │           ├── importlib_resources-6.5.2.dist-info
+│   │           ├── iso639
+│   │           ├── isodate
+│   │           ├── isodate-0.7.2.dist-info
+│   │           ├── isympy.py
+│   │           ├── itsdangerous
+│   │           ├── itsdangerous-2.2.0.dist-info
+│   │           ├── jinja2
+│   │           ├── jinja2-3.1.6.dist-info
+│   │           ├── jiter
+│   │           ├── jiter-0.12.0.dist-info
+│   │           ├── jmespath
+│   │           ├── jmespath-1.0.1.dist-info
+│   │           ├── joblib
+│   │           ├── joblib-1.5.2.dist-info
+│   │           ├── jose
+│   │           ├── jsonpatch-1.33.dist-info
+│   │           ├── jsonpatch.py
+│   │           ├── jsonpointer-3.0.0.dist-info
+│   │           ├── jsonpointer.py
+│   │           ├── jsonschema
+│   │           ├── jsonschema-4.25.1.dist-info
+│   │           ├── jsonschema_specifications
+│   │           ├── jsonschema_specifications-2025.9.1.dist-info
+│   │           ├── jwt
+│   │           ├── kiwisolver
+│   │           ├── kiwisolver-1.4.9.dist-info
+│   │           ├── kubernetes
+│   │           ├── kubernetes-34.1.0.dist-info
+│   │           ├── langchain
+│   │           ├── langchain-0.3.27.dist-info
+│   │           ├── langchain_community
+│   │           ├── langchain_community-0.3.29.dist-info
+│   │           ├── langchain_core
+│   │           ├── langchain_core-0.3.79.dist-info
+│   │           ├── langchain_text_splitters
+│   │           ├── langchain_text_splitters-0.3.11.dist-info
+│   │           ├── langdetect
+│   │           ├── langdetect-1.0.9.dist-info
+│   │           ├── langsmith
+│   │           ├── langsmith-0.4.42.dist-info
+│   │           ├── ldap3
+│   │           ├── ldap3-2.9.1.dist-info
+│   │           ├── llvmlite
+│   │           ├── llvmlite-0.45.1.dist-info
+│   │           ├── loguru
+│   │           ├── loguru-0.7.3.dist-info
+│   │           ├── lxml
+│   │           ├── lxml-6.0.2.dist-info
+│   │           ├── magic
+│   │           ├── mako
+│   │           ├── mako-1.3.10.dist-info
+│   │           ├── markdown
+│   │           ├── markdown-3.9.dist-info
+│   │           ├── markdown_it
+│   │           ├── markdown_it_py-4.0.0.dist-info
+│   │           ├── markupsafe
+│   │           ├── markupsafe-3.0.3.dist-info
+│   │           ├── marshmallow
+│   │           ├── marshmallow-3.26.1.dist-info
+│   │           ├── matplotlib
+│   │           ├── matplotlib-3.10.7.dist-info
+│   │           ├── mcp
+│   │           ├── mcp-1.14.1.dist-info
+│   │           ├── mdurl
+│   │           ├── mdurl-0.1.2.dist-info
+│   │           ├── mem0
+│   │           ├── mem0ai-1.0.0.dist-info
+│   │           ├── mmh3
+│   │           ├── mmh3-5.2.0.dist-info
+│   │           ├── mmh3.cpython-311-x86_64-linux-gnu.so
+│   │           ├── mpl_toolkits
+│   │           ├── mpmath
+│   │           ├── mpmath-1.3.0.dist-info
+│   │           ├── msal
+│   │           ├── msal-1.34.0.dist-info
+│   │           ├── msal_extensions
+│   │           ├── msal_extensions-1.3.1.dist-info
+│   │           ├── multidict
+│   │           ├── multidict-6.7.0.dist-info
+│   │           ├── multipart
+│   │           ├── mypy_extensions-1.1.0.dist-info
+│   │           ├── mypy_extensions.py
+│   │           ├── networkx
+│   │           ├── networkx-3.5.dist-info
+│   │           ├── nltk
+│   │           ├── nltk-3.9.1.dist-info
+│   │           ├── numba
+│   │           ├── numba-0.62.1.dist-info
+│   │           ├── numpy
+│   │           ├── numpy-2.2.6.dist-info
+│   │           ├── numpy.libs
+│   │           ├── nvidia
+│   │           ├── nvidia_cublas_cu12-12.8.4.1.dist-info
+│   │           ├── nvidia_cuda_cupti_cu12-12.8.90.dist-info
+│   │           ├── nvidia_cuda_nvrtc_cu12-12.8.93.dist-info
+│   │           ├── nvidia_cuda_runtime_cu12-12.8.90.dist-info
+│   │           ├── nvidia_cudnn_cu12-9.10.2.21.dist-info
+│   │           ├── nvidia_cufft_cu12-11.3.3.83.dist-info
+│   │           ├── nvidia_cufile_cu12-1.13.1.3.dist-info
+│   │           ├── nvidia_curand_cu12-10.3.9.90.dist-info
+│   │           ├── nvidia_cusolver_cu12-11.7.3.90.dist-info
+│   │           ├── nvidia_cusparse_cu12-12.5.8.93.dist-info
+│   │           ├── nvidia_cusparselt_cu12-0.7.1.dist-info
+│   │           ├── nvidia_nccl_cu12-2.27.5.dist-info
+│   │           ├── nvidia_nvjitlink_cu12-12.8.93.dist-info
+│   │           ├── nvidia_nvshmem_cu12-3.3.20.dist-info
+│   │           ├── nvidia_nvtx_cu12-12.8.90.dist-info
+│   │           ├── oauthlib
+│   │           ├── oauthlib-3.3.1.dist-info
+│   │           ├── olefile
+│   │           ├── olefile-0.47.dist-info
+│   │           ├── OleFileIO_PL.py
+│   │           ├── onnxruntime
+│   │           ├── onnxruntime-1.20.1.dist-info
+│   │           ├── openai
+│   │           ├── openai-2.7.1.dist-info
+│   │           ├── opencv_python-4.12.0.88.dist-info
+│   │           ├── opencv_python_headless-4.11.0.86.dist-info
+│   │           ├── opencv_python_headless.libs
+│   │           ├── opencv_python.libs
+│   │           ├── openpyxl
+│   │           ├── openpyxl-3.1.5.dist-info
+│   │           ├── opensearchpy
+│   │           ├── opensearch_py-2.8.0.dist-info
+│   │           ├── opentelemetry
+│   │           ├── opentelemetry_api-1.38.0.dist-info
+│   │           ├── opentelemetry_exporter_otlp_proto_common-1.38.0.dist-info
+│   │           ├── opentelemetry_exporter_otlp_proto_grpc-1.38.0.dist-info
+│   │           ├── opentelemetry_proto-1.38.0.dist-info
+│   │           ├── opentelemetry_sdk-1.38.0.dist-info
+│   │           ├── opentelemetry_semantic_conventions-0.59b0.dist-info
+│   │           ├── open_webui
+│   │           ├── open_webui-0.6.36.dist-info
+│   │           ├── open_webui_data.zip
+│   │           ├── orjson
+│   │           ├── orjson-3.11.4.dist-info
+│   │           ├── overrides
+│   │           ├── overrides-7.7.0.dist-info
+│   │           ├── oxmsg
+│   │           ├── packaging
+│   │           ├── packaging-25.0.dist-info
+│   │           ├── pandas
+│   │           ├── pandas-2.2.3.dist-info
+│   │           ├── pathspec
+│   │           ├── pathspec-0.12.1.dist-info
+│   │           ├── patsy
+│   │           ├── patsy-1.0.2.dist-info
+│   │           ├── peewee-3.18.1.dist-info
+│   │           ├── peewee_migrate
+│   │           ├── peewee_migrate-1.12.2.dist-info
+│   │           ├── peewee.py
+│   │           ├── PIL
+│   │           ├── pillow-11.3.0.dist-info
+│   │           ├── pillow.libs
+│   │           ├── pip
+│   │           ├── pip-25.3.dist-info
+│   │           ├── pkg_resources
+│   │           ├── platformdirs
+│   │           ├── platformdirs-4.5.0.dist-info
+│   │           ├── playhouse
+│   │           ├── portalocker
+│   │           ├── portalocker-3.2.0.dist-info
+│   │           ├── posthog
+│   │           ├── posthog-5.4.0.dist-info
+│   │           ├── pptx
+│   │           ├── primp
+│   │           ├── primp-0.15.0.dist-info
+│   │           ├── propcache
+│   │           ├── propcache-0.4.1.dist-info
+│   │           ├── proto
+│   │           ├── protobuf-5.29.5.dist-info
+│   │           ├── proto_plus-1.26.1.dist-info
+│   │           ├── psutil
+│   │           ├── psutil-7.1.3.dist-info
+│   │           ├── pwiz.py
+│   │           ├── pyarrow
+│   │           ├── pyarrow-20.0.0.dist-info
+│   │           ├── pyasn1
+│   │           ├── pyasn1-0.6.1.dist-info
+│   │           ├── pyasn1_modules
+│   │           ├── pyasn1_modules-0.4.2.dist-info
+│   │           ├── pybase64
+│   │           ├── pybase64-1.4.2.dist-info
+│   │           ├── __pycache__
+│   │           ├── pyclipper
+│   │           ├── pyclipper-1.3.0.post6.dist-info
+│   │           ├── pycparser
+│   │           ├── pycparser-2.23.dist-info
+│   │           ├── pycrdt
+│   │           ├── pycrdt-0.12.25.dist-info
+│   │           ├── pydantic
+│   │           ├── pydantic-2.11.9.dist-info
+│   │           ├── pydantic_core
+│   │           ├── pydantic_core-2.33.2.dist-info
+│   │           ├── pydantic_settings
+│   │           ├── pydantic_settings-2.11.0.dist-info
+│   │           ├── pydub
+│   │           ├── pydub-0.25.1.dist-info
+│   │           ├── pygments
+│   │           ├── pygments-2.19.2.dist-info
+│   │           ├── PyJWT-2.10.1.dist-info
+│   │           ├── pylab.py
+│   │           ├── pymdown_extensions-10.14.2.dist-info
+│   │           ├── pymdownx
+│   │           ├── pymysql
+│   │           ├── PyMySQL-1.1.1.dist-info
+│   │           ├── pyod
+│   │           ├── pyod-2.0.5.dist-info
+│   │           ├── pypandoc
+│   │           ├── pypandoc-1.15.dist-info
+│   │           ├── pyparsing
+│   │           ├── pyparsing-3.2.5.dist-info
+│   │           ├── pypdf
+│   │           ├── pypdf-6.0.0.dist-info
+│   │           ├── pypika
+│   │           ├── pypika-0.48.9.dist-info
+│   │           ├── pyproject_hooks
+│   │           ├── pyproject_hooks-1.2.0.dist-info
+│   │           ├── pysad
+│   │           ├── pysad-0.3.4.dist-info
+│   │           ├── python_dateutil-2.9.0.post0.dist-info
+│   │           ├── python_dotenv-1.2.1.dist-info
+│   │           ├── python_engineio-4.12.3.dist-info
+│   │           ├── python_iso639-2025.2.18.dist-info
+│   │           ├── python_jose-3.5.0.dist-info
+│   │           ├── python_magic-0.4.27.dist-info
+│   │           ├── python_multipart
+│   │           ├── python_multipart-0.0.20.dist-info
+│   │           ├── python_oxmsg-0.0.2.dist-info
+│   │           ├── python_pptx-1.0.2.dist-info
+│   │           ├── python_socketio-5.13.0.dist-info
+│   │           ├── pytokens
+│   │           ├── pytokens-0.3.0.dist-info
+│   │           ├── pyttsx3
+│   │           ├── pyttsx3-2.99.dist-info
+│   │           ├── pytube
+│   │           ├── pytube-15.0.0.dist-info
+│   │           ├── pytz
+│   │           ├── pytz-2025.2.dist-info
+│   │           ├── pyxlsb
+│   │           ├── pyxlsb-1.0.10.dist-info
+│   │           ├── pyyaml-6.0.3.dist-info
+│   │           ├── qdrant_client
+│   │           ├── qdrant_client-1.15.1.dist-info
+│   │           ├── rank_bm25-0.2.2.dist-info
+│   │           ├── rank_bm25.py
+│   │           ├── rapidfuzz
+│   │           ├── rapidfuzz-3.14.3.dist-info
+│   │           ├── rapidocr_onnxruntime
+│   │           ├── rapidocr_onnxruntime-1.4.4.dist-info
+│   │           ├── redis
+│   │           ├── redis-7.0.1.dist-info
+│   │           ├── referencing
+│   │           ├── referencing-0.37.0.dist-info
+│   │           ├── regex
+│   │           ├── regex-2025.11.3.dist-info
+│   │           ├── requests
+│   │           ├── requests-2.32.5.dist-info
+│   │           ├── requests_oauthlib
+│   │           ├── requests_oauthlib-2.0.0.dist-info
+│   │           ├── requests_toolbelt
+│   │           ├── requests_toolbelt-1.0.0.dist-info
+│   │           ├── RestrictedPython
+│   │           ├── RestrictedPython-8.0.dist-info
+│   │           ├── rich
+│   │           ├── rich-13.9.4.dist-info
+│   │           ├── rpds
+│   │           ├── rpds_py-0.28.0.dist-info
+│   │           ├── rsa
+│   │           ├── rsa-4.9.1.dist-info
+│   │           ├── s3transfer
+│   │           ├── s3transfer-0.13.1.dist-info
+│   │           ├── safetensors
+│   │           ├── safetensors-0.6.2.dist-info
+│   │           ├── schemas
+│   │           ├── scikit_learn-1.7.2.dist-info
+│   │           ├── scikit_learn.libs
+│   │           ├── scipy
+│   │           ├── scipy-1.16.3.dist-info
+│   │           ├── scipy.libs
+│   │           ├── sentencepiece
+│   │           ├── sentencepiece-0.2.1.dist-info
+│   │           ├── sentence_transformers
+│   │           ├── sentence_transformers-5.1.1.dist-info
+│   │           ├── setuptools
+│   │           ├── setuptools-66.1.1.dist-info
+│   │           ├── shapely
+│   │           ├── shapely-2.1.2.dist-info
+│   │           ├── shapely.libs
+│   │           ├── shellingham
+│   │           ├── shellingham-1.5.4.dist-info
+│   │           ├── simple_websocket
+│   │           ├── simple_websocket-1.1.0.dist-info
+│   │           ├── six-1.17.0.dist-info
+│   │           ├── six.py
+│   │           ├── sklearn
+│   │           ├── sniffio
+│   │           ├── sniffio-1.3.1.dist-info
+│   │           ├── socketio
+│   │           ├── socksio
+│   │           ├── socksio-1.0.0.dist-info
+│   │           ├── soundfile-0.13.1.dist-info
+│   │           ├── _soundfile_data
+│   │           ├── _soundfile.py
+│   │           ├── soundfile.py
+│   │           ├── soupsieve
+│   │           ├── soupsieve-2.8.dist-info
+│   │           ├── sqlalchemy
+│   │           ├── SQLAlchemy-2.0.38.dist-info
+│   │           ├── sse_starlette
+│   │           ├── sse_starlette-3.0.3.dist-info
+│   │           ├── starlette
+│   │           ├── starlette-0.48.0.dist-info
+│   │           ├── starlette_compress
+│   │           ├── starlette_compress-1.6.0.dist-info
+│   │           ├── starsessions
+│   │           ├── starsessions-2.2.1.dist-info
+│   │           ├── statsmodels
+│   │           ├── statsmodels-0.14.5.dist-info
+│   │           ├── sympy
+│   │           ├── sympy-1.14.0.dist-info
+│   │           ├── tabulate
+│   │           ├── tabulate-0.9.0.dist-info
+│   │           ├── tenacity
+│   │           ├── tenacity-9.1.2.dist-info
+│   │           ├── test_unstructured
+│   │           ├── text2emotion
+│   │           ├── text2emotion-0.0.5.dist-info
+│   │           ├── threadpoolctl-3.6.0.dist-info
+│   │           ├── threadpoolctl.py
+│   │           ├── tiktoken
+│   │           ├── tiktoken-0.12.0.dist-info
+│   │           ├── tiktoken_ext
+│   │           ├── tokenizers
+│   │           ├── tokenizers-0.22.1.dist-info
+│   │           ├── tqdm
+│   │           ├── tqdm-4.67.1.dist-info
+│   │           ├── transformers
+│   │           ├── transformers-4.57.1.dist-info
+│   │           ├── triton
+│   │           ├── triton-3.5.0.dist-info
+│   │           ├── typer
+│   │           ├── typer-0.20.0.dist-info
+│   │           ├── typing_extensions-4.15.0.dist-info
+│   │           ├── typing_extensions.py
+│   │           ├── typing_inspect-0.9.0.dist-info
+│   │           ├── typing_inspection
+│   │           ├── typing_inspection-0.4.2.dist-info
+│   │           ├── typing_inspect.py
+│   │           ├── tzdata
+│   │           ├── tzdata-2025.2.dist-info
+│   │           ├── tzlocal
+│   │           ├── tzlocal-5.3.1.dist-info
+│   │           ├── unstructured
+│   │           ├── unstructured-0.18.15.dist-info
+│   │           ├── unstructured_client
+│   │           ├── unstructured_client-0.42.3.dist-info
+│   │           ├── uritemplate
+│   │           ├── uritemplate-4.2.0.dist-info
+│   │           ├── urllib3
+│   │           ├── urllib3-2.3.0.dist-info
+│   │           ├── uvicorn
+│   │           ├── uvicorn-0.37.0.dist-info
+│   │           ├── uvloop
+│   │           ├── uvloop-0.22.1.dist-info
+│   │           ├── validators
+│   │           ├── validators-0.35.0.dist-info
+│   │           ├── watchdog
+│   │           ├── watchdog-6.0.0.dist-info
+│   │           ├── watchfiles
+│   │           ├── watchfiles-1.1.1.dist-info
+│   │           ├── wcwidth
+│   │           ├── wcwidth-0.2.14.dist-info
+│   │           ├── webencodings
+│   │           ├── webencodings-0.5.1.dist-info
+│   │           ├── websocket
+│   │           ├── websocket_client-1.9.0.dist-info
+│   │           ├── websockets
+│   │           ├── websockets-15.0.1.dist-info
+│   │           ├── wheel
+│   │           ├── wheel-0.45.1.dist-info
+│   │           ├── wordcloud
+│   │           ├── wordcloud-1.9.4.dist-info
+│   │           ├── wrapt
+│   │           ├── wrapt-2.0.1.dist-info
+│   │           ├── wsproto
+│   │           ├── wsproto-1.2.0.dist-info
+│   │           ├── xlrd
+│   │           ├── xlrd-2.0.1.dist-info
+│   │           ├── xlsxwriter
+│   │           ├── xlsxwriter-3.2.9.dist-info
+│   │           ├── _yaml
+│   │           ├── yaml
+│   │           ├── yarl
+│   │           ├── yarl-1.22.0.dist-info
+│   │           ├── youtube_transcript_api
+│   │           ├── youtube_transcript_api-1.2.2.dist-info
+│   │           ├── zipp
+│   │           ├── zipp-3.23.0.dist-info
+│   │           ├── zstandard
+│   │           └── zstandard-0.25.0.dist-info
+│   ├── lib64 -> lib
+│   ├── pyvenv.cfg
+│   ├── README.md
+│   └── share
+│       └── man
+│           └── man1
+│               ├── isympy.1
+│               └── ttx.1
+└── wireguard
+
+1096 directories, 801 files
