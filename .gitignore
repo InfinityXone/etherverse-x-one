@@ -4,6 +4,11 @@ node_modules/
 .pnpm-store/
 pnpm-lock.yaml
 npm-debug.log*
+# Ignore temporary or jump files
+*.tmp
+*.swp
+*.bak
+/path/to/jumpfile/
 
 # Python
 .venv/
