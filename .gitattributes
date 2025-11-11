@@ -1,0 +1,1 @@
+venv/lib/python3.11/site-packages/_polars_runtime_32/_polars_runtime_32.abi3.so filter=lfs diff=lfs merge=lfs -text
